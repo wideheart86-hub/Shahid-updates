@@ -4,3 +4,10 @@ your parcel is on hold | common delivery-fee lure
 salik account suspended | common toll lure
 تم تعليق حسابك | common account-suspension lure (AR)
 آپ کا پارسل روک دیا گیا | common delivery-fee lure (UR)
+dubai crisis management | Dubai Police warning: fake crisis-management messages
+update your uae pass | Dubai Police warning: UAE PASS detail requests
+تحديث بيانات الهوية الرقمية | Dubai Police warning: UAE PASS lure (AR)
+update your bank details | Dubai Police warning: bank-details lure
+تحديث بياناتك البنكية | Dubai Police warning: bank-details lure (AR)
+unpaid salik fine | Group-IB report: Salik SMS campaign (2023)
+your package could not be delivered emirates post | Resecurity report: Emirates Post smishing

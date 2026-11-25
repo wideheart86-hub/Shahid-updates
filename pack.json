@@ -1,8 +1,17 @@
 {
-  "version": 6,
+  "version": 7,
   "updated": "2026-11-25",
   "note": "SHAHID threat pack (MH Team). Entries can only ADD warnings. Built automatically from numbers.txt, websites.txt and phrases.txt.",
-  "blocked_domains": [],
+  "blocked_domains": [
+    {
+      "domain": "dwu6.top",
+      "source": "Resecurity report: Smishing Triad fake Emirates Post site (2024)"
+    },
+    {
+      "domain": "tcsz.top",
+      "source": "Resecurity report: fake Emirates Post site emiratespost.ae.tcsz.top (2024)"
+    }
+  ],
   "phrases": [
     {
       "text": "your parcel is on hold",
@@ -23,6 +32,34 @@
     {
       "text": "آپ کا پارسل روک دیا گیا",
       "source": "common delivery-fee lure (UR)"
+    },
+    {
+      "text": "dubai crisis management",
+      "source": "Dubai Police warning: fake crisis-management messages"
+    },
+    {
+      "text": "update your uae pass",
+      "source": "Dubai Police warning: UAE PASS detail requests"
+    },
+    {
+      "text": "تحديث بيانات الهوية الرقمية",
+      "source": "Dubai Police warning: UAE PASS lure (AR)"
+    },
+    {
+      "text": "update your bank details",
+      "source": "Dubai Police warning: bank-details lure"
+    },
+    {
+      "text": "تحديث بياناتك البنكية",
+      "source": "Dubai Police warning: bank-details lure (AR)"
+    },
+    {
+      "text": "unpaid salik fine",
+      "source": "Group-IB report: Salik SMS campaign (2023)"
+    },
+    {
+      "text": "your package could not be delivered emirates post",
+      "source": "Resecurity report: Emirates Post smishing"
     }
   ],
   "blocked_numbers": [
