@@ -69,11 +69,20 @@ def main():
         good.append(it)
     good.sort(key=lambda x: -x["ts"])
     good = good[:5]
+    for g in good:  # take the story's own picture (og:image) from the news site when the feed has none
+        if g["image"]: continue
+        try:
+            page = get(g["url"])[:300000].decode("utf-8", "ignore")
+            m = re.search(r'<meta[^>]+(?:property|name)=["\'](?:og:image|twitter:image)["\'][^>]+content=["\']([^"\']+)', page) \
+                or re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\'](?:og:image|twitter:image)', page)
+            if m and html.unescape(m.group(1)).startswith("https://"): g["image"] = html.unescape(m.group(1))
+        except Exception as e:
+            print("no picture for", g["url"], e, file=sys.stderr)
     if len(good) < 2:
         print("Not enough trusted stories found; keeping the previous news.json"); return
     path = os.path.join(ROOT, "news.json")
     old = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else []
-    if [o.get("url") for o in old] == [g["url"] for g in good]:
+    if [(o.get("url"), o.get("image")) for o in old] == [(g["url"], g["image"]) for g in good]:
         print("News unchanged"); return
     json.dump(good, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print("News updated:", *[g["source"] + ": " + g["title"] for g in good], sep="\n  ")
