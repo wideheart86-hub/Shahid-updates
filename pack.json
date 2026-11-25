@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "updated": "2026-11-25",
   "note": "SHAHID threat pack (MH Team). Entries can only ADD warnings. Built automatically from numbers.txt, websites.txt and phrases.txt.",
   "blocked_domains": [
@@ -67,5 +67,28 @@
       "number": "70614213",
       "source": "UAE Ministry of Interior denied any link to this number used in scam calls (Khaleej Times, Nov 2026)"
     }
-  ]
+  ],
+  "top": [
+    {
+      "id": "fines",
+      "source": "Dubai Police and RTA warnings about fake fine messages"
+    },
+    {
+      "id": "delivery",
+      "source": "Resecurity and Emirates Post warnings (Smishing Triad)"
+    },
+    {
+      "id": "bank",
+      "source": "UAE Central Bank and banks' warnings about calls asking for codes"
+    },
+    {
+      "id": "gov",
+      "source": "Dubai Police warning: fake UAE PASS / ICP / \"Dubai Crisis Management\""
+    },
+    {
+      "id": "job",
+      "source": "Fake task-based jobs on WhatsApp and Telegram"
+    }
+  ],
+  "news": []
 }

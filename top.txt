@@ -1,0 +1,8 @@
+# SHAHID — top scams right now in the UAE / GCC (first = most common). One scam id per line:
+#   fines, delivery, bank, gov, family, job, invest, prize, rent, games, drugs
+# Change the order whenever police or news warn about a new wave. The app shows the first 5.
+fines | Dubai Police and RTA warnings about fake fine messages
+delivery | Resecurity and Emirates Post warnings (Smishing Triad)
+bank | UAE Central Bank and banks' warnings about calls asking for codes
+gov | Dubai Police warning: fake UAE PASS / ICP / "Dubai Crisis Management"
+job | Fake task-based jobs on WhatsApp and Telegram

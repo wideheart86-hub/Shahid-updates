@@ -18,3 +18,8 @@ Do not edit `pack.json` or `pack.json.sig` by hand. If a line is invalid, the jo
 the Actions tab shows which line to fix.
 
 No user data is ever uploaded here.
+
+## Top scams and news
+- **top.txt** — the "most common now" list shown first in the app's Scam Vault (first 5 shown). Reorder any time.
+- **news.json** — filled automatically every day at 08:17 UAE time with the 5 latest scam news stories from trusted
+  UAE/GCC news sites only (see `scripts/fetch_news.py`). To remove a story, delete it from news.json and commit.

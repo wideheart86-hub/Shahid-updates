@@ -43,12 +43,25 @@ def main():
     for i, v, s in phrases:
         if len(v) < 4: errors.append(f"phrases.txt:{i}: phrase too short"); continue
         phrase_list.append({"text": v, "source": s})
+    VAULT_IDS = {"fines", "delivery", "bank", "gov", "job", "invest", "family", "prize", "rent", "games", "drugs",
+                 "links", "otp", "spoof", "remote", "qr", "social"}
+    top_rows, e = read("top.txt"); errors += e
+    top = []
+    for i, v, s in top_rows:
+        if v not in VAULT_IDS: errors.append(f"top.txt:{i}: unknown scam id: {v}"); continue
+        top.append({"id": v, "source": s})
+    news = []
+    news_path = os.path.join(ROOT, "news.json")
+    if os.path.exists(news_path):
+        for n in json.load(open(news_path, encoding="utf-8"))[:5]:
+            if str(n.get("url", "")).startswith("https://"):
+                news.append({k: n.get(k, "") for k in ("title", "url", "image", "source", "ts", "lang", "summary")})
     if errors:
         print("\n".join(errors)); sys.exit(1)
 
     pack_path = os.path.join(ROOT, "pack.json")
     old = json.load(open(pack_path, encoding="utf-8")) if os.path.exists(pack_path) else {"version": 0}
-    body = {"blocked_domains": blocked_domains, "phrases": phrase_list, "blocked_numbers": blocked_numbers}
+    body = {"blocked_domains": blocked_domains, "phrases": phrase_list, "blocked_numbers": blocked_numbers, "top": top, "news": news}
     same = all(old.get(k) == v for k, v in body.items())
     if same and os.path.exists(pack_path + ".sig"):
         print("No changes; version stays", old.get("version")); return
@@ -64,7 +77,7 @@ def main():
     sig = key.sign(data, ec.ECDSA(hashes.SHA256()))
     open(pack_path, "wb").write(data)
     open(pack_path + ".sig", "w").write(base64.b64encode(sig).decode() + "\n")
-    print(f"Published version {pack['version']}: {len(blocked_numbers)} numbers, {len(blocked_domains)} websites, {len(phrase_list)} phrases")
+    print(f"Published version {pack['version']}: {len(blocked_numbers)} numbers, {len(blocked_domains)} websites, {len(phrase_list)} phrases, {len(top)} top scams, {len(news)} news")
 
 if __name__ == "__main__":
     main()
