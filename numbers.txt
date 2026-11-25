@@ -1,0 +1,3 @@
+# SHAHID scam phone numbers — one per line:   number | source (who reported it and when)
+# Lines starting with # are notes. Spaces inside numbers are fine.
+70614213 | UAE Ministry of Interior denied any link to this number used in scam calls (Khaleej Times, Nov 2026)

@@ -1,0 +1,27 @@
+name: Publish signed SHAHID update
+on:
+  push:
+    branches: [main]
+    paths: ["numbers.txt", "websites.txt", "phrases.txt", "scripts/build_pack.py"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: publish, cancel-in-progress: false }
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install cryptography==43.0.3
+      - name: Build and sign pack.json
+        env:
+          SHAHID_SIGNING_KEY: ${{ secrets.SHAHID_SIGNING_KEY }}
+        run: python3 scripts/build_pack.py
+      - name: Commit signed update
+        run: |
+          git config user.name "shahid-update-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pack.json pack.json.sig
+          git diff --cached --quiet || { git commit -m "Signed update $(python3 -c 'import json;print(json.load(open("pack.json"))["version"])')"; git push; }

@@ -1,0 +1,6 @@
+# SHAHID scam phrases (any language) — one per line:   phrase | source
+your parcel is on hold | common delivery-fee lure
+طردك معلق | common delivery-fee lure (AR)
+salik account suspended | common toll lure
+تم تعليق حسابك | common account-suspension lure (AR)
+آپ کا پارسل روک دیا گیا | common delivery-fee lure (UR)

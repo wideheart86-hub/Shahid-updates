@@ -1,0 +1,2 @@
+# SHAHID scam websites — one per line:   domain | source
+# Write only the website name, e.g.  rta-fines-pay.com | Dubai Police warning, Nov 2026
