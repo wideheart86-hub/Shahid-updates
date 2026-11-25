@@ -1,0 +1,34 @@
+{
+  "version": 5,
+  "updated": "2026-11-25",
+  "note": "SHAHID threat pack. Entries can only ADD warnings: they never mark anything as safe and never override official domains. Edit via pull request; include a source for every entry.",
+  "blocked_domains": [],
+  "phrases": [
+    {
+      "text": "your parcel is on hold",
+      "source": "common delivery-fee lure"
+    },
+    {
+      "text": "طردك معلق",
+      "source": "common delivery-fee lure (AR)"
+    },
+    {
+      "text": "salik account suspended",
+      "source": "common toll lure"
+    },
+    {
+      "text": "تم تعليق حسابك",
+      "source": "common account-suspension lure (AR)"
+    },
+    {
+      "text": "آپ کا پارسل روک دیا گیا",
+      "source": "common delivery-fee lure (UR)"
+    }
+  ],
+  "blocked_numbers": [
+    {
+      "number": "70614213",
+      "source": "UAE Ministry of Interior publicly denied any link to this number used in scam calls (reported by Khaleej Times, 2026)"
+    }
+  ]
+}
