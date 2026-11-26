@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 13,
   "updated": "2026-11-26",
   "note": "SHAHID threat pack (MH Team). Entries can only ADD warnings. Built automatically from numbers.txt, websites.txt and phrases.txt.",
   "blocked_domains": [
@@ -92,6 +92,15 @@
   ],
   "news": [
     {
+      "title": "LexisNexis Risk Solutions brings ‘Scamdemic’ to Dubai",
+      "url": "https://www.zawya.com/en/press-release/companies-news/lexisnexis-risk-solutions-brings-scamdemic-to-dubai-2555806",
+      "image": "https://media.zawya.com/prod/images/gm_preview/c54b64acc477-photo-4-1.jpg",
+      "source": "zawya.com",
+      "ts": 1795627740,
+      "lang": "en",
+      "summary": "UAE – LexisNexis® Risk Solutions hosted the UAE premiere of Scamdemic, a two-part documentary series that goes beyond individual scams to expose the organized criminal networks, human exploitation and ..."
+    },
+    {
       "title": "السلطات البريطانية تعترض أكثر من مليار اتصال احتيالي قبل خصومات الجمعة السوداء",
       "url": "https://www.emaratalyoum.com/life/four-sides/2ROGYH75KFEUXC54KN4LK2HRE4/",
       "image": "https://www.emaratalyoum.com/resizer/v2/EST3I3RGGZGFDNGUC5HYQKG2PI.webp?auth=82e906da21b2cd1b67fa2bdbf50b04309079c00a3b5bfe2c5f4c3fa3dc5be085&width=800&height=450&smart=true",
@@ -110,31 +119,22 @@
       "summary": "أكد سعادة جايلز تومسون، رئيس مجموعة العمل المالي «فاتف» أهمية سرعة الاستجابة لجرائم الاحتيال، وتوسيع نطاق التعاون ليشمل شركات التكنولوجيا والاتصالات إلى جانب القطاعات الخاضعة للرقابة، مشدداً على ضرورة ..."
     },
     {
-      "title": "كيف بلغت خسائر احتيال المدفوعات 660 مليون جنيه في بريطانيا؟",
-      "url": "https://24.ae/article/971942/كيف-بلغت-خسائر-احتيال-المدفوعات-660-مليون-جنيه-في-بريطانيا-",
-      "image": "",
-      "source": "24.ae",
-      "ts": 1795535940,
-      "lang": "ar",
-      "summary": "ارتفعت خسائر الاحتيال في المدفوعات ببريطانيا 8% إلى 659.5 مليون جنيه إسترليني في النصف الأول من 2026، بعدما قفزت خسائر العمليات التي يُخدع فيها الضحايا لتحويل الأموال بأنفسهم 22% إلى 316 مليون جنيه. و ..."
-    },
-    {
-      "title": "660 مليون جنيه خسائر احتيال المدفوعات في بريطانيا.. الاستثمار الوهمي يتصدر",
-      "url": "https://24.ae/article/971942/660-مليون-جنيه-خسائر-احتيال-المدفوعات-في-بريطانيا-الاستثمار-الوهمي-يتصدر",
-      "image": "",
-      "source": "24.ae",
-      "ts": 1795535940,
-      "lang": "ar",
-      "summary": "ارتفعت خسائر الاحتيال في المدفوعات ببريطانيا 8% إلى 659.5 مليون جنيه إسترليني خلال النصف الأول من 2026، مع زيادة خسائر العمليات التي يُخدع فيها الضحايا لتحويل الأموال بأنفسهم 22% إلى 316 مليون جنيه، م ..."
-    },
-    {
-      "title": "Kuwait arrests suspect in Gulf-wide scam network in joint operation with UAE",
-      "url": "https://www.khaleejtimes.com/world/gulf/kuwait-suspect-scam-network-operation-uae",
-      "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-11-23/08kqrek8/Screenshot-2026-11-23-at-10.39.26-AM.png?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=0,2,866,577",
-      "source": "khaleejtimes.com",
-      "ts": 1795401540,
+      "title": "Abu Dhabi Police issue warning against fraudulent ads, online links on rental bikes and holiday bookings",
+      "url": "https://www.gulftoday.ae/news/2026/11/22/abu-dhbai-police-issue-warning-against-fraudulent-ads-online-links-on-rental-bikes-and-holiday-bookings",
+      "image": "https://www.gulftoday.ae/gulftoday/uploads/images/2026/11/22/1128983.webp",
+      "source": "gulftoday.ae",
+      "ts": 1795349640,
       "lang": "en",
-      "summary": "The organised criminal network allegedly targeted victims across the Gulf through fake advertisements and calls using local phone numbers ..."
+      "summary": "Abu Dhabi Police have warned the public against falling victim to fraudulent advertisements and online links promoted by scammers via social media and ..."
+    },
+    {
+      "title": "شرطة أبوظبي تحذر من إعلانات وهمية لتأجير الدراجات وحجز الاستراحات والعزب",
+      "url": "https://www.alkhaleej.ae/2026-11-22/%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D8%AF%D8%A7%D8%B1/%D8%B4%D8%B1%D8%B7%D8%A9-%D8%A3%D8%A8%D9%88%D8%B8%D8%A8%D9%8A-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D8%A7%D8%AA-%D9%88%D9%87%D9%85%D9%8A%D8%A9-%D9%84%D8%AA%D8%A3%D8%AC%D9%8A%D8%B1-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%AC%D8%A7%D8%AA-%D9%88%D8%AD%D8%AC%D8%B2-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AD%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%B9%D8%B2%D8%A8",
+      "image": "",
+      "source": "alkhaleej.ae",
+      "ts": 1795344900,
+      "lang": "ar",
+      "summary": "حذّرت شرطة أبوظبي أفراد المجتمع من الوقوع ضحية للإعلانات والروابط الإلكترونية الوهمية التي يروّج لها محتالون عبر مواقع التواصل الاجتماعي والمنصات الإلكترونية، بشأن تأجير وبيع الدراجات النارية وحجز الا ..."
     }
   ],
   "bad_apps": [],
