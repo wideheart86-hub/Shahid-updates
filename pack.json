@@ -1,6 +1,6 @@
 {
-  "version": 10,
-  "updated": "2026-11-25",
+  "version": 11,
+  "updated": "2026-11-26",
   "note": "SHAHID threat pack (MH Team). Entries can only ADD warnings. Built automatically from numbers.txt, websites.txt and phrases.txt.",
   "blocked_domains": [
     {
@@ -92,13 +92,22 @@
   ],
   "news": [
     {
-      "title": "كيف بلغت خسائر احتيال المدفوعات 660 مليون جنيه في بريطانيا؟",
-      "url": "https://24.ae/article/971942/كيف-بلغت-خسائر-احتيال-المدفوعات-660-مليون-جنيه-في-بريطانيا-",
-      "image": "",
-      "source": "24.ae",
-      "ts": 1795535940,
+      "title": "السلطات البريطانية تعترض أكثر من مليار اتصال احتيالي قبل خصومات الجمعة السوداء",
+      "url": "https://www.emaratalyoum.com/life/four-sides/2ROGYH75KFEUXC54KN4LK2HRE4/",
+      "image": "https://www.emaratalyoum.com/resizer/v2/EST3I3RGGZGFDNGUC5HYQKG2PI.webp?auth=82e906da21b2cd1b67fa2bdbf50b04309079c00a3b5bfe2c5f4c3fa3dc5be085&width=800&height=450&smart=true",
+      "source": "emaratalyoum.com",
+      "ts": 1795622400,
       "lang": "ar",
-      "summary": "ارتفعت خسائر الاحتيال في المدفوعات ببريطانيا 8% إلى 659.5 مليون جنيه إسترليني في النصف الأول من 2026، بعدما قفزت خسائر العمليات التي يُخدع فيها الضحايا لتحويل الأموال بأنفسهم 22% إلى 316 مليون جنيه. و ..."
+      "summary": "يلجأ المحتالون بشكل متزايد إلى انتحال صفة مزودي خدمات الهاتف المحمول، وذلك لخداع البريطانيين ودفعهم لشراء عروض وهمية أو الكشف عن بياناتهم الشخصية."
+    },
+    {
+      "title": "\"فاتف\" تشيد بالطاولة المستديرة التي نظّمتها الرئاسة الإماراتية لـ\"مينافاتف\"",
+      "url": "https://www.wam.ae/ar/article/c3fm2zw-فاتف-تشيد-بالطاولة-المستديرة-التي-نظمتها-الرئاسة",
+      "image": "",
+      "source": "wam.ae",
+      "ts": 1795563240,
+      "lang": "ar",
+      "summary": "أكد سعادة جايلز تومسون، رئيس مجموعة العمل المالي «فاتف» أهمية سرعة الاستجابة لجرائم الاحتيال، وتوسيع نطاق التعاون ليشمل شركات التكنولوجيا والاتصالات إلى جانب القطاعات الخاضعة للرقابة، مشدداً على ضرورة ..."
     },
     {
       "title": "660 مليون جنيه خسائر احتيال المدفوعات في بريطانيا.. الاستثمار الوهمي يتصدر",
@@ -108,15 +117,6 @@
       "ts": 1795535940,
       "lang": "ar",
       "summary": "ارتفعت خسائر الاحتيال في المدفوعات ببريطانيا 8% إلى 659.5 مليون جنيه إسترليني خلال النصف الأول من 2026، مع زيادة خسائر العمليات التي يُخدع فيها الضحايا لتحويل الأموال بأنفسهم 22% إلى 316 مليون جنيه، م ..."
-    },
-    {
-      "title": "Kuwait arrests suspect in Gulf-wide scam network in joint operation with UAE",
-      "url": "https://www.khaleejtimes.com/world/gulf/kuwait-suspect-scam-network-operation-uae",
-      "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-11-23/08kqrek8/Screenshot-2026-11-23-at-10.39.26-AM.png?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=0,2,866,577",
-      "source": "khaleejtimes.com",
-      "ts": 1795401540,
-      "lang": "en",
-      "summary": "The organised criminal network allegedly targeted victims across the Gulf through fake advertisements and calls using local phone numbers ..."
     },
     {
       "title": "Abu Dhabi Police issue warning against fraudulent ads, online links on rental bikes and holiday bookings",
@@ -136,5 +136,655 @@
       "lang": "ar",
       "summary": "حذّرت شرطة أبوظبي أفراد المجتمع من الوقوع ضحية للإعلانات والروابط الإلكترونية الوهمية التي يروّج لها محتالون عبر مواقع التواصل الاجتماعي والمنصات الإلكترونية، بشأن تأجير وبيع الدراجات النارية وحجز الا ..."
     }
-  ]
+  ],
+  "bad_apps": [],
+  "vault": [
+    {
+      "id": "fines",
+      "cat": "type",
+      "icon": "🚓",
+      "en": {
+        "t": "Fake traffic fines",
+        "d": "Messages claim you have an unpaid fine or Salik toll and send a link to pay quickly.",
+        "signs": [
+          "A link that is not rta.ae, salik.ae, or the police app",
+          "A deadline: \"pay today or your licence is suspended\"",
+          "Asks for full card details or a code"
+        ],
+        "ex": "RTA: You have an unpaid fine of 50 AED. Pay now to avoid suspension: rta-fines-pay.com",
+        "do": "Never pay from a message link. Open the official RTA, Salik or police app yourself and check."
+      },
+      "ar": {
+        "t": "المخالفات المرورية المزيفة",
+        "d": "رسائل تدعي أن عليك مخالفة أو رسوم سالك غير مدفوعة وترسل رابطا للدفع بسرعة.",
+        "signs": [
+          "رابط ليس rta.ae أو salik.ae أو تطبيق الشرطة",
+          "مهلة قصيرة: \"ادفع اليوم وإلا ستوقف رخصتك\"",
+          "طلب بيانات البطاقة كاملة أو رمز"
+        ],
+        "ex": "هيئة الطرق: عليك مخالفة غير مدفوعة بقيمة 50 درهم. ادفع الآن لتجنب الإيقاف: rta-fines-pay.com",
+        "do": "لا تدفع أبدا من رابط في رسالة. افتح تطبيق الهيئة أو سالك أو الشرطة الرسمي بنفسك وتحقق."
+      },
+      "ur": {
+        "t": "جعلی ٹریفک جرمانے",
+        "d": "پیغامات کہتے ہیں کہ آپ کا جرمانہ یا سالک ٹول باقی ہے اور جلد ادائیگی کا لنک بھیجتے ہیں۔",
+        "signs": [
+          "لنک rta.ae، salik.ae یا پولیس ایپ نہیں",
+          "ڈیڈ لائن: \"آج ادا کریں ورنہ لائسنس معطل\"",
+          "کارڈ کی مکمل تفصیل یا کوڈ مانگنا"
+        ],
+        "ex": "RTA: آپ کا 50 درہم کا جرمانہ باقی ہے۔ معطلی سے بچنے کے لیے ابھی ادا کریں: rta-fines-pay.com",
+        "do": "پیغام کے لنک سے کبھی ادائیگی نہ کریں۔ خود سرکاری RTA، سالک یا پولیس ایپ کھول کر چیک کریں۔"
+      }
+    },
+    {
+      "id": "delivery",
+      "cat": "type",
+      "icon": "📦",
+      "en": {
+        "t": "Fake delivery fees",
+        "d": "A parcel is \"on hold\" and you must pay a small fee to release it.",
+        "signs": [
+          "You were not expecting a parcel",
+          "A tiny fee (e.g. 5 AED) with a card form",
+          "Sender name like Emirates Post or Aramex but a strange link"
+        ],
+        "ex": "Emirates Post: Your parcel is on hold. Pay 7.50 AED to reschedule delivery: emiratespost.ae.tcsz.top",
+        "do": "Check the tracking number only on the courier's official website or app."
+      },
+      "ar": {
+        "t": "رسوم التوصيل المزيفة",
+        "d": "يقال إن طردك \"معلق\" وعليك دفع رسوم صغيرة للإفراج عنه.",
+        "signs": [
+          "لم تكن تنتظر أي طرد",
+          "رسوم صغيرة جدا مثل 5 دراهم مع نموذج بطاقة",
+          "اسم المرسل بريد الإمارات أو أرامكس لكن الرابط غريب"
+        ],
+        "ex": "بريد الإمارات: طردك معلق. ادفع 7.50 درهم لإعادة جدولة التوصيل: emiratespost.ae.tcsz.top",
+        "do": "تحقق من رقم التتبع فقط في موقع أو تطبيق شركة الشحن الرسمي."
+      },
+      "ur": {
+        "t": "جعلی ڈیلیوری فیس",
+        "d": "کہا جاتا ہے کہ پارسل \"روکا گیا\" ہے اور چھڑانے کے لیے معمولی فیس دیں۔",
+        "signs": [
+          "آپ کسی پارسل کا انتظار نہیں کر رہے تھے",
+          "بہت چھوٹی فیس (مثلا 5 درہم) اور کارڈ فارم",
+          "نام امارات پوسٹ یا آرامیکس مگر لنک عجیب"
+        ],
+        "ex": "امارات پوسٹ: آپ کا پارسل روکا گیا ہے۔ دوبارہ ڈیلیوری کے لیے 7.50 درہم ادا کریں: emiratespost.ae.tcsz.top",
+        "do": "ٹریکنگ نمبر صرف کوریئر کی سرکاری ویب سائٹ یا ایپ پر چیک کریں۔"
+      }
+    },
+    {
+      "id": "bank",
+      "cat": "type",
+      "icon": "🏦",
+      "en": {
+        "t": "Fake bank calls and messages",
+        "d": "Someone \"from your bank\" says your card is blocked or there is a suspicious payment, and asks for a code.",
+        "signs": [
+          "Asks for the OTP, PIN, CVV or card number",
+          "Says your account will be closed today",
+          "Calls from an international or hidden number"
+        ],
+        "ex": "This is your bank's security team. Your card is blocked. Tell me the 6-digit code we just sent to reactivate it.",
+        "do": "Hang up. Banks never ask for codes. Call the number printed on the back of your card."
+      },
+      "ar": {
+        "t": "اتصالات ورسائل البنوك المزيفة",
+        "d": "شخص يقول إنه \"من البنك\" وإن بطاقتك موقوفة أو هناك عملية مشبوهة، ويطلب رمزا.",
+        "signs": [
+          "يطلب رمز التحقق أو الرقم السري أو رمز CVV أو رقم البطاقة",
+          "يقول إن حسابك سيغلق اليوم",
+          "الاتصال من رقم دولي أو مخفي"
+        ],
+        "ex": "معك فريق أمن البنك. بطاقتك موقوفة. أعطني الرمز المكون من 6 أرقام الذي أرسلناه لإعادة تفعيلها.",
+        "do": "أغلق الخط. البنوك لا تطلب الرموز أبدا. اتصل بالرقم المكتوب خلف بطاقتك."
+      },
+      "ur": {
+        "t": "جعلی بینک کالز اور پیغامات",
+        "d": "کوئی \"بینک سے\" کہتا ہے کہ کارڈ بلاک ہے یا مشکوک ادائیگی ہے، اور کوڈ مانگتا ہے۔",
+        "signs": [
+          "OTP، PIN، CVV یا کارڈ نمبر مانگنا",
+          "کہنا کہ اکاؤنٹ آج بند ہو جائے گا",
+          "بین الاقوامی یا چھپے نمبر سے کال"
+        ],
+        "ex": "میں آپ کے بینک کی سیکیورٹی ٹیم سے ہوں۔ آپ کا کارڈ بلاک ہے۔ دوبارہ فعال کرنے کے لیے 6 ہندسوں کا کوڈ بتائیں۔",
+        "do": "کال بند کریں۔ بینک کبھی کوڈ نہیں مانگتے۔ کارڈ کے پیچھے لکھے نمبر پر کال کریں۔"
+      }
+    },
+    {
+      "id": "gov",
+      "cat": "type",
+      "icon": "🏛️",
+      "en": {
+        "t": "Fake police and government",
+        "d": "Scammers pretend to be police, ICP, UAE PASS or a ministry, and threaten a case, a fine or a blocked ID.",
+        "signs": [
+          "Threats of arrest or a travel ban",
+          "Asks to update UAE PASS or Emirates ID details by link",
+          "Uses names like \"Dubai Crisis Management\""
+        ],
+        "ex": "Dubai Police: A case is registered against your Emirates ID. Update your UAE PASS within 24 hours: uae-pass-verify.com",
+        "do": "Police never ask for codes or payments by phone or message. Call 901 or use the official app."
+      },
+      "ar": {
+        "t": "الشرطة والجهات الحكومية المزيفة",
+        "d": "يدعي المحتالون أنهم الشرطة أو الهوية والجنسية أو الهوية الرقمية أو وزارة، ويهددون بقضية أو مخالفة أو إيقاف الهوية.",
+        "signs": [
+          "تهديد بالقبض أو منع السفر",
+          "طلب تحديث الهوية الرقمية أو بيانات الهوية عبر رابط",
+          "استخدام أسماء مثل \"إدارة الأزمات في دبي\""
+        ],
+        "ex": "شرطة دبي: توجد قضية مسجلة على هويتك. حدث بيانات الهوية الرقمية خلال 24 ساعة: uae-pass-verify.com",
+        "do": "الشرطة لا تطلب رموزا أو مدفوعات بالهاتف أو الرسائل. اتصل بالرقم 901 أو استخدم التطبيق الرسمي."
+      },
+      "ur": {
+        "t": "جعلی پولیس اور حکومت",
+        "d": "دھوکہ باز پولیس، ICP، یو اے ای پاس یا کسی وزارت کا روپ دھار کر کیس، جرمانے یا شناخت بلاک کرنے کی دھمکی دیتے ہیں۔",
+        "signs": [
+          "گرفتاری یا سفری پابندی کی دھمکی",
+          "لنک کے ذریعے یو اے ای پاس یا ایمریٹس آئی ڈی اپ ڈیٹ کرنے کا کہنا",
+          "\"دبئی کرائسس مینجمنٹ\" جیسے نام"
+        ],
+        "ex": "دبئی پولیس: آپ کی ایمریٹس آئی ڈی پر کیس درج ہے۔ 24 گھنٹوں میں یو اے ای پاس اپ ڈیٹ کریں: uae-pass-verify.com",
+        "do": "پولیس فون یا پیغام پر کبھی کوڈ یا ادائیگی نہیں مانگتی۔ 901 پر کال کریں یا سرکاری ایپ استعمال کریں۔"
+      }
+    },
+    {
+      "id": "job",
+      "cat": "type",
+      "icon": "💼",
+      "en": {
+        "t": "Fake jobs and tasks",
+        "d": "Easy money for liking videos or rating hotels, or a job that needs a visa or training fee first.",
+        "signs": [
+          "You must pay to get the job",
+          "Paid tasks on WhatsApp or Telegram",
+          "Asked to receive and send money for someone"
+        ],
+        "ex": "Earn 500 AED a day from home! Just like YouTube videos. Contact HR on WhatsApp.",
+        "do": "Real employers never ask you to pay. Never move money for others: it can make you part of a crime."
+      },
+      "ar": {
+        "t": "الوظائف والمهام المزيفة",
+        "d": "مال سهل مقابل الإعجاب بالفيديوهات أو تقييم الفنادق، أو وظيفة تحتاج رسوم تأشيرة أو تدريب أولا.",
+        "signs": [
+          "عليك الدفع للحصول على الوظيفة",
+          "مهام مدفوعة عبر واتساب أو تيليجرام",
+          "طلب استلام وتحويل أموال لشخص آخر"
+        ],
+        "ex": "اربح 500 درهم يوميا من المنزل! فقط اضغط إعجاب على فيديوهات يوتيوب. تواصل مع الموارد البشرية عبر واتساب.",
+        "do": "أصحاب العمل الحقيقيون لا يطلبون الدفع أبدا. لا تحول أموالا لغيرك: قد يجعلك ذلك جزءا من جريمة."
+      },
+      "ur": {
+        "t": "جعلی نوکریاں اور ٹاسک",
+        "d": "ویڈیوز لائک کرنے یا ہوٹلوں کی ریٹنگ پر آسان پیسے، یا ایسی نوکری جس کے لیے پہلے ویزا یا تربیت کی فیس دینی ہو۔",
+        "signs": [
+          "نوکری کے لیے ادائیگی ضروری ہو",
+          "واٹس ایپ یا ٹیلیگرام پر ادا شدہ ٹاسک",
+          "کسی کے لیے رقم وصول کر کے آگے بھیجنے کا کہنا"
+        ],
+        "ex": "گھر بیٹھے روزانہ 500 درہم کمائیں! صرف یوٹیوب ویڈیوز لائک کریں۔ واٹس ایپ پر HR سے رابطہ کریں۔",
+        "do": "اصل آجر کبھی پیسے نہیں مانگتے۔ دوسروں کے لیے رقم منتقل نہ کریں: آپ جرم کا حصہ بن سکتے ہیں۔"
+      }
+    },
+    {
+      "id": "invest",
+      "cat": "type",
+      "icon": "📈",
+      "en": {
+        "t": "Investment and crypto",
+        "d": "Guaranteed high profits, trading \"experts\", or a friend who \"made a fortune\" on a new platform.",
+        "signs": [
+          "Guaranteed or very high returns",
+          "Pressure to invest fast or add more",
+          "You can't withdraw without paying a \"fee\""
+        ],
+        "ex": "Join our VIP trading group: guaranteed 30% profit every week. Limited seats!",
+        "do": "Use only providers licensed by the UAE regulators, and check the licence yourself."
+      },
+      "ar": {
+        "t": "الاستثمار والعملات الرقمية",
+        "d": "أرباح مضمونة ومرتفعة، أو \"خبراء\" تداول، أو صديق \"ربح ثروة\" من منصة جديدة.",
+        "signs": [
+          "أرباح مضمونة أو مرتفعة جدا",
+          "ضغط للاستثمار بسرعة أو إضافة المزيد",
+          "لا يمكنك السحب إلا بعد دفع \"رسوم\""
+        ],
+        "ex": "انضم إلى مجموعة التداول المميزة: ربح مضمون 30% كل أسبوع. المقاعد محدودة!",
+        "do": "تعامل فقط مع الجهات المرخصة من الجهات الرقابية في الإمارات، وتحقق من الترخيص بنفسك."
+      },
+      "ur": {
+        "t": "سرمایہ کاری اور کرپٹو",
+        "d": "یقینی بھاری منافع، ٹریڈنگ کے \"ماہرین\"، یا کوئی دوست جس نے نئے پلیٹ فارم پر \"دولت کمائی\"۔",
+        "signs": [
+          "یقینی یا بہت زیادہ منافع",
+          "جلدی یا مزید سرمایہ لگانے کا دباؤ",
+          "\"فیس\" ادا کیے بغیر رقم نہیں نکلتی"
+        ],
+        "ex": "ہمارے VIP ٹریڈنگ گروپ میں شامل ہوں: ہر ہفتے 30% یقینی منافع۔ محدود نشستیں!",
+        "do": "صرف یو اے ای کے ریگولیٹرز سے لائسنس یافتہ اداروں کو استعمال کریں اور لائسنس خود چیک کریں۔"
+      }
+    },
+    {
+      "id": "family",
+      "cat": "type",
+      "icon": "👪",
+      "en": {
+        "t": "Family and friend emergencies",
+        "d": "A message from a \"new number\" of your son, sister or friend who urgently needs money.",
+        "signs": [
+          "\"This is my new number\"",
+          "Urgent request to transfer money to someone else's account",
+          "Refuses a voice or video call"
+        ],
+        "ex": "Hi Mum, my phone broke, this is my new number. I need 2,000 AED urgently, please transfer to this account.",
+        "do": "Call the person on their old number, or use SHAHID's family code to check it is really them."
+      },
+      "ar": {
+        "t": "طوارئ الأقارب والأصدقاء",
+        "d": "رسالة من \"رقم جديد\" لابنك أو أختك أو صديقك يحتاج المال بشكل عاجل.",
+        "signs": [
+          "\"هذا رقمي الجديد\"",
+          "طلب عاجل لتحويل المال إلى حساب شخص آخر",
+          "يرفض الاتصال الصوتي أو المرئي"
+        ],
+        "ex": "أمي، هاتفي تعطل وهذا رقمي الجديد. أحتاج 2000 درهم بشكل عاجل، حولي إلى هذا الحساب.",
+        "do": "اتصل بالشخص على رقمه القديم، أو استخدم رمز العائلة في شاهد للتأكد أنه هو فعلا."
+      },
+      "ur": {
+        "t": "خاندان اور دوستوں کی ایمرجنسی",
+        "d": "آپ کے بیٹے، بہن یا دوست کے \"نئے نمبر\" سے پیغام جسے فوری پیسے چاہئیں۔",
+        "signs": [
+          "\"یہ میرا نیا نمبر ہے\"",
+          "کسی اور کے اکاؤنٹ میں فوری رقم بھیجنے کی درخواست",
+          "آواز یا ویڈیو کال سے انکار"
+        ],
+        "ex": "امی، میرا فون خراب ہو گیا، یہ نیا نمبر ہے۔ مجھے فوری 2000 درہم چاہئیں، اس اکاؤنٹ میں بھیج دیں۔",
+        "do": "اس شخص کو پرانے نمبر پر کال کریں، یا شاہد کا خاندانی کوڈ استعمال کر کے تصدیق کریں۔"
+      }
+    },
+    {
+      "id": "prize",
+      "cat": "type",
+      "icon": "🎁",
+      "en": {
+        "t": "Prizes and giveaways",
+        "d": "You \"won\" a car, phone or shopping voucher, but must pay a small fee or enter card details.",
+        "signs": [
+          "You never entered a competition",
+          "A fee to claim the prize",
+          "Fake pages of famous stores or malls"
+        ],
+        "ex": "Congratulations! You won an iPhone in the Dubai Mall anniversary draw. Pay 10 AED delivery to claim.",
+        "do": "Real prizes never require payment. Check the store's official page."
+      },
+      "ar": {
+        "t": "الجوائز والهدايا",
+        "d": "\"فزت\" بسيارة أو هاتف أو قسيمة تسوق، لكن عليك دفع رسوم صغيرة أو إدخال بيانات البطاقة.",
+        "signs": [
+          "لم تشارك في أي مسابقة",
+          "رسوم لاستلام الجائزة",
+          "صفحات مزيفة لمتاجر أو مراكز تسوق مشهورة"
+        ],
+        "ex": "مبروك! فزت بهاتف آيفون في سحب ذكرى دبي مول. ادفع 10 دراهم رسوم توصيل للاستلام.",
+        "do": "الجوائز الحقيقية لا تتطلب الدفع أبدا. تحقق من الصفحة الرسمية للمتجر."
+      },
+      "ur": {
+        "t": "انعامات اور گیو اوے",
+        "d": "آپ نے گاڑی، فون یا شاپنگ واؤچر \"جیتا\" ہے مگر معمولی فیس یا کارڈ تفصیل دینی ہے۔",
+        "signs": [
+          "آپ نے کسی مقابلے میں حصہ نہیں لیا",
+          "انعام لینے کے لیے فیس",
+          "مشہور اسٹورز یا مالز کے جعلی صفحات"
+        ],
+        "ex": "مبارک ہو! آپ نے دبئی مال کی سالگرہ قرعہ اندازی میں آئی فون جیتا۔ وصولی کے لیے 10 درہم ڈیلیوری ادا کریں۔",
+        "do": "اصل انعامات کے لیے کبھی ادائیگی نہیں ہوتی۔ اسٹور کا سرکاری صفحہ چیک کریں۔"
+      }
+    },
+    {
+      "id": "rent",
+      "cat": "type",
+      "icon": "🏠",
+      "en": {
+        "t": "Rental and online shopping",
+        "d": "Cheap apartments, cars or products online; the \"seller\" wants a deposit before you see anything.",
+        "signs": [
+          "Price far below the market",
+          "Deposit before viewing or delivery",
+          "Seller avoids meeting or official platforms"
+        ],
+        "ex": "Studio in Dubai Marina, 2,500 AED/month! Owner abroad, send the deposit and I'll courier the keys.",
+        "do": "Pay only through trusted platforms or after viewing, with a proper contract."
+      },
+      "ar": {
+        "t": "الإيجار والتسوق الإلكتروني",
+        "d": "شقق أو سيارات أو منتجات رخيصة على الإنترنت، و\"البائع\" يريد عربونا قبل أن ترى أي شيء.",
+        "signs": [
+          "سعر أقل بكثير من السوق",
+          "عربون قبل المعاينة أو التوصيل",
+          "البائع يتجنب المقابلة أو المنصات الرسمية"
+        ],
+        "ex": "استوديو في دبي مارينا بسعر 2500 درهم شهريا! المالك خارج الدولة، أرسل العربون وسأرسل المفاتيح.",
+        "do": "ادفع فقط عبر منصات موثوقة أو بعد المعاينة وبعقد رسمي."
+      },
+      "ur": {
+        "t": "کرایہ اور آن لائن خریداری",
+        "d": "سستے فلیٹ، گاڑیاں یا اشیا آن لائن؛ \"بیچنے والا\" کچھ دیکھنے سے پہلے پیشگی رقم مانگتا ہے۔",
+        "signs": [
+          "قیمت مارکیٹ سے بہت کم",
+          "دیکھنے یا ڈیلیوری سے پہلے پیشگی رقم",
+          "بیچنے والا ملنے یا سرکاری پلیٹ فارم سے گریز کرے"
+        ],
+        "ex": "دبئی مرینا میں اسٹوڈیو، 2500 درہم ماہانہ! مالک بیرون ملک ہے، پیشگی رقم بھیجیں، چابیاں کوریئر کر دوں گا۔",
+        "do": "صرف قابل اعتماد پلیٹ فارمز کے ذریعے یا دیکھنے کے بعد، باقاعدہ معاہدے کے ساتھ ادائیگی کریں۔"
+      }
+    },
+    {
+      "id": "games",
+      "cat": "type",
+      "icon": "🎮",
+      "en": {
+        "t": "Game and child scams",
+        "d": "Free coins, skins or gift cards for children, in exchange for a parent's card or a login code.",
+        "signs": [
+          "\"Free\" in-game currency",
+          "Asks the child for a parent's card or code",
+          "Asks to keep it secret from parents"
+        ],
+        "ex": "Get 10,000 free V-Bucks! Log in here and enter the code sent to your mum's phone.",
+        "do": "Teach children to ask a trusted adult first. Use SHAHID's child mode and purchase alerts."
+      },
+      "ar": {
+        "t": "احتيال الألعاب والأطفال",
+        "d": "عملات أو أزياء أو بطاقات هدايا مجانية للأطفال، مقابل بطاقة الوالدين أو رمز الدخول.",
+        "signs": [
+          "عملة \"مجانية\" داخل اللعبة",
+          "طلب بطاقة أو رمز أحد الوالدين من الطفل",
+          "طلب إخفاء الأمر عن الوالدين"
+        ],
+        "ex": "احصل على 10000 عملة مجانية! سجل الدخول هنا وأدخل الرمز المرسل إلى هاتف والدتك.",
+        "do": "علم أطفالك أن يسألوا شخصا بالغا يثقون به أولا. استخدم وضع الطفل وتنبيهات المشتريات في شاهد."
+      },
+      "ur": {
+        "t": "گیمز اور بچوں کے دھوکے",
+        "d": "بچوں کو مفت کوائنز، اسکنز یا گفٹ کارڈ، بدلے میں والدین کا کارڈ یا لاگ ان کوڈ۔",
+        "signs": [
+          "گیم میں \"مفت\" کرنسی",
+          "بچے سے والدین کا کارڈ یا کوڈ مانگنا",
+          "والدین سے چھپانے کا کہنا"
+        ],
+        "ex": "10,000 مفت V-Bucks حاصل کریں! یہاں لاگ ان کریں اور امی کے فون پر آیا کوڈ درج کریں۔",
+        "do": "بچوں کو سکھائیں کہ پہلے کسی قابل اعتماد بڑے سے پوچھیں۔ شاہد کا چائلڈ موڈ اور خریداری الرٹس استعمال کریں۔"
+      }
+    },
+    {
+      "id": "drugs",
+      "cat": "type",
+      "icon": "🚫",
+      "en": {
+        "t": "Drug offers",
+        "d": "Messages or social accounts offering drugs, often with code words or emojis. Buying or using them is a serious crime in the UAE.",
+        "signs": [
+          "Code words, emojis or \"delivery to your door\"",
+          "Unknown accounts adding you to groups",
+          "Offers of pills \"for studying\" or parties"
+        ],
+        "ex": "New stock available 💊❄️ fast delivery, DM for the menu.",
+        "do": "Don't reply. Report to the anti-narcotics line: Dubai 80044, Sharjah 800400400."
+      },
+      "ar": {
+        "t": "عروض المخدرات",
+        "d": "رسائل أو حسابات تعرض المخدرات، غالبا بكلمات سرية أو رموز تعبيرية. شراؤها أو تعاطيها جريمة خطيرة في الإمارات.",
+        "signs": [
+          "كلمات سرية أو رموز تعبيرية أو \"توصيل إلى بابك\"",
+          "حسابات مجهولة تضيفك إلى مجموعات",
+          "عروض حبوب \"للمذاكرة\" أو للحفلات"
+        ],
+        "ex": "وصلت بضاعة جديدة 💊❄️ توصيل سريع، راسلنا للقائمة.",
+        "do": "لا ترد. أبلغ مكافحة المخدرات: دبي 80044، الشارقة 800400400."
+      },
+      "ur": {
+        "t": "منشیات کی پیشکش",
+        "d": "پیغامات یا سوشل اکاؤنٹس جو منشیات پیش کرتے ہیں، اکثر خفیہ الفاظ یا ایموجیز کے ساتھ۔ خریدنا یا استعمال کرنا امارات میں سنگین جرم ہے۔",
+        "signs": [
+          "خفیہ الفاظ، ایموجیز یا \"گھر تک ڈیلیوری\"",
+          "نامعلوم اکاؤنٹس کا گروپس میں شامل کرنا",
+          "\"پڑھائی\" یا پارٹیوں کے لیے گولیوں کی پیشکش"
+        ],
+        "ex": "نیا اسٹاک آ گیا 💊❄️ تیز ڈیلیوری، مینو کے لیے میسج کریں۔",
+        "do": "جواب نہ دیں۔ اینٹی نارکوٹکس کو رپورٹ کریں: دبئی 80044، شارجہ 800400400۔"
+      }
+    },
+    {
+      "id": "links",
+      "cat": "method",
+      "icon": "🔗",
+      "en": {
+        "t": "Fake links and lookalike websites",
+        "d": "Websites that copy a real service: rta-ae.com, dubai-police.info, or real names hidden at the start of a strange address.",
+        "signs": [
+          "Small spelling changes or extra words",
+          "Endings like .top, .xyz, .info for a government service",
+          "The real name followed by more dots: emiratespost.ae.tcsz.top"
+        ],
+        "ex": "https://rta.ae-fines.top/pay",
+        "do": "Type the official address yourself, or let SHAHID check the link first."
+      },
+      "ar": {
+        "t": "الروابط والمواقع المشابهة المزيفة",
+        "d": "مواقع تقلد خدمة حقيقية مثل rta-ae.com أو dubai-police.info، أو اسم حقيقي في بداية عنوان غريب.",
+        "signs": [
+          "تغيير بسيط في الحروف أو كلمات إضافية",
+          "نهايات مثل .top و .xyz و .info لخدمة حكومية",
+          "الاسم الحقيقي تليه نقاط أخرى: emiratespost.ae.tcsz.top"
+        ],
+        "ex": "https://rta.ae-fines.top/pay",
+        "do": "اكتب العنوان الرسمي بنفسك، أو دع شاهد يفحص الرابط أولا."
+      },
+      "ur": {
+        "t": "جعلی لنکس اور ملتی جلتی ویب سائٹس",
+        "d": "اصل سروس کی نقل کرنے والی ویب سائٹس: rta-ae.com، dubai-police.info، یا عجیب پتے کے شروع میں اصل نام۔",
+        "signs": [
+          "ہجے میں معمولی تبدیلی یا اضافی الفاظ",
+          "سرکاری سروس کے لیے .top، .xyz، .info جیسے اختتام",
+          "اصل نام کے بعد مزید نقطے: emiratespost.ae.tcsz.top"
+        ],
+        "ex": "https://rta.ae-fines.top/pay",
+        "do": "سرکاری پتہ خود ٹائپ کریں، یا پہلے شاہد سے لنک چیک کروائیں۔"
+      }
+    },
+    {
+      "id": "otp",
+      "cat": "method",
+      "icon": "🔢",
+      "en": {
+        "t": "Stealing your codes (OTP)",
+        "d": "The scammer starts a login or payment with your details, then tricks you into reading out the code you receive.",
+        "signs": [
+          "Anyone asking for a code you just received",
+          "\"I sent it by mistake, please send it back\"",
+          "WhatsApp verification codes"
+        ],
+        "ex": "I accidentally sent my WhatsApp code to your number, can you forward it to me?",
+        "do": "A code is like your key. Never share it with anyone, even family or \"support\"."
+      },
+      "ar": {
+        "t": "سرقة الرموز (رمز التحقق)",
+        "d": "يبدأ المحتال تسجيل دخول أو دفعة ببياناتك، ثم يخدعك لتقرأ له الرمز الذي يصلك.",
+        "signs": [
+          "أي شخص يطلب رمزا وصلك للتو",
+          "\"أرسلته بالخطأ، أعده لي من فضلك\"",
+          "رموز التحقق في واتساب"
+        ],
+        "ex": "أرسلت رمز واتساب الخاص بي إلى رقمك بالخطأ، هل يمكنك إعادة إرساله لي؟",
+        "do": "الرمز مثل مفتاحك. لا تشاركه مع أي أحد، حتى العائلة أو \"الدعم الفني\"."
+      },
+      "ur": {
+        "t": "کوڈ چوری (OTP)",
+        "d": "دھوکہ باز آپ کی تفصیلات سے لاگ ان یا ادائیگی شروع کرتا ہے، پھر آپ کو آیا ہوا کوڈ بتانے پر مجبور کرتا ہے۔",
+        "signs": [
+          "کوئی بھی جو ابھی آیا کوڈ مانگے",
+          "\"غلطی سے بھیج دیا، واپس بھیج دیں\"",
+          "واٹس ایپ تصدیقی کوڈ"
+        ],
+        "ex": "میں نے غلطی سے اپنا واٹس ایپ کوڈ آپ کے نمبر پر بھیج دیا، کیا آپ مجھے فارورڈ کر دیں گے؟",
+        "do": "کوڈ آپ کی چابی کی طرح ہے۔ کسی سے شیئر نہ کریں، خاندان یا \"سپورٹ\" سے بھی نہیں۔"
+      }
+    },
+    {
+      "id": "spoof",
+      "cat": "method",
+      "icon": "📞",
+      "en": {
+        "t": "Faked caller ID",
+        "d": "Scammers can make a call look like it comes from 901, a bank or a real company.",
+        "signs": [
+          "Official-looking number asking for codes or payments",
+          "Pressure to act during the call",
+          "SHAHID shows \"caller shows the number of…\""
+        ],
+        "ex": "Caller ID shows 901: \"This is Dubai Police, confirm your card to stop the case.\"",
+        "do": "Hang up and call the official number yourself. The real police will never ask for card details."
+      },
+      "ar": {
+        "t": "انتحال رقم المتصل",
+        "d": "يستطيع المحتالون جعل المكالمة تظهر وكأنها من 901 أو من بنك أو شركة حقيقية.",
+        "signs": [
+          "رقم يبدو رسميا يطلب رموزا أو مدفوعات",
+          "ضغط للتصرف أثناء المكالمة",
+          "يظهر شاهد \"المتصل يظهر رقم…\""
+        ],
+        "ex": "يظهر رقم 901: \"معك شرطة دبي، أكد بيانات بطاقتك لإيقاف القضية.\"",
+        "do": "أغلق الخط واتصل بالرقم الرسمي بنفسك. الشرطة الحقيقية لا تطلب بيانات البطاقة أبدا."
+      },
+      "ur": {
+        "t": "جعلی کالر آئی ڈی",
+        "d": "دھوکہ باز کال کو ایسا دکھا سکتے ہیں جیسے 901، کسی بینک یا اصل کمپنی سے ہو۔",
+        "signs": [
+          "سرکاری لگنے والا نمبر جو کوڈ یا ادائیگی مانگے",
+          "کال کے دوران فوری عمل کا دباؤ",
+          "شاہد دکھاتا ہے \"کالر … کا نمبر دکھا رہا ہے\""
+        ],
+        "ex": "کالر آئی ڈی 901: \"دبئی پولیس سے بات ہو رہی ہے، کیس روکنے کے لیے کارڈ کی تصدیق کریں۔\"",
+        "do": "کال بند کر کے خود سرکاری نمبر پر کال کریں۔ اصل پولیس کبھی کارڈ کی تفصیل نہیں مانگتی۔"
+      }
+    },
+    {
+      "id": "remote",
+      "cat": "method",
+      "icon": "🖥️",
+      "en": {
+        "t": "Screen sharing and remote apps",
+        "d": "You are asked to install AnyDesk, TeamViewer or a \"security app\" so they can \"help\" you.",
+        "signs": [
+          "Asked to install an app from a link",
+          "Asked to share your screen",
+          "Asked to open your banking app during the call"
+        ],
+        "ex": "To secure your account, install this support app and read me the 9-digit ID.",
+        "do": "Never install apps or share your screen because a caller asked you to."
+      },
+      "ar": {
+        "t": "مشاركة الشاشة وتطبيقات التحكم عن بعد",
+        "d": "يطلب منك تثبيت AnyDesk أو TeamViewer أو \"تطبيق أمان\" حتى \"يساعدوك\".",
+        "signs": [
+          "طلب تثبيت تطبيق من رابط",
+          "طلب مشاركة الشاشة",
+          "طلب فتح تطبيق البنك أثناء المكالمة"
+        ],
+        "ex": "لتأمين حسابك، ثبت تطبيق الدعم هذا واقرأ لي الرقم المكون من 9 أرقام.",
+        "do": "لا تثبت تطبيقات ولا تشارك شاشتك لأن متصلا طلب ذلك."
+      },
+      "ur": {
+        "t": "اسکرین شیئرنگ اور ریموٹ ایپس",
+        "d": "آپ سے AnyDesk، TeamViewer یا \"سیکیورٹی ایپ\" انسٹال کروائی جاتی ہے تاکہ وہ \"مدد\" کر سکیں۔",
+        "signs": [
+          "لنک سے ایپ انسٹال کرنے کا کہنا",
+          "اسکرین شیئر کرنے کا کہنا",
+          "کال کے دوران بینکنگ ایپ کھولنے کا کہنا"
+        ],
+        "ex": "اکاؤنٹ محفوظ کرنے کے لیے یہ سپورٹ ایپ انسٹال کریں اور 9 ہندسوں کا ID بتائیں۔",
+        "do": "کسی کالر کے کہنے پر کبھی ایپ انسٹال یا اسکرین شیئر نہ کریں۔"
+      }
+    },
+    {
+      "id": "qr",
+      "cat": "method",
+      "icon": "🔳",
+      "en": {
+        "t": "Fake QR codes",
+        "d": "Stickers on parking machines, posters or messages with a QR code leading to a fake payment page.",
+        "signs": [
+          "A sticker placed over the original",
+          "QR code in a message asking for payment",
+          "Page asks for card details for parking or fines"
+        ],
+        "ex": "Parking sign with a QR sticker: \"Scan to pay parking\".",
+        "do": "Pay parking and fines only in the official apps. Let SHAHID check the link the QR code opens."
+      },
+      "ar": {
+        "t": "رموز QR المزيفة",
+        "d": "ملصقات على أجهزة المواقف أو إعلانات أو رسائل فيها رمز QR يقود إلى صفحة دفع مزيفة.",
+        "signs": [
+          "ملصق موضوع فوق الأصلي",
+          "رمز QR في رسالة تطلب الدفع",
+          "صفحة تطلب بيانات البطاقة للمواقف أو المخالفات"
+        ],
+        "ex": "لوحة مواقف عليها ملصق QR: \"امسح للدفع\".",
+        "do": "ادفع المواقف والمخالفات فقط من التطبيقات الرسمية. دع شاهد يفحص الرابط الذي يفتحه رمز QR."
+      },
+      "ur": {
+        "t": "جعلی QR کوڈ",
+        "d": "پارکنگ مشینوں، پوسٹرز یا پیغامات پر QR کوڈ جو جعلی ادائیگی کے صفحے پر لے جائے۔",
+        "signs": [
+          "اصل کے اوپر لگا اسٹیکر",
+          "ادائیگی مانگنے والے پیغام میں QR کوڈ",
+          "پارکنگ یا جرمانے کے لیے کارڈ تفصیل مانگنے والا صفحہ"
+        ],
+        "ex": "پارکنگ بورڈ پر QR اسٹیکر: \"ادائیگی کے لیے اسکین کریں\"۔",
+        "do": "پارکنگ اور جرمانے صرف سرکاری ایپس میں ادا کریں۔ QR کوڈ کا لنک شاہد سے چیک کروائیں۔"
+      }
+    },
+    {
+      "id": "social",
+      "cat": "method",
+      "icon": "📱",
+      "en": {
+        "t": "Fake pages and ads on social media",
+        "d": "Fake accounts of banks, stores or celebrities, and paid ads with offers that are too good to be true.",
+        "signs": [
+          "New page, few posts, many ads",
+          "Asks you to message on WhatsApp",
+          "Celebrity \"recommends\" an investment"
+        ],
+        "ex": "Sponsored: Etihad 20th anniversary — free tickets for everyone, claim now!",
+        "do": "Follow only verified official accounts. Check offers on the official website."
+      },
+      "ar": {
+        "t": "الصفحات والإعلانات المزيفة في التواصل الاجتماعي",
+        "d": "حسابات مزيفة لبنوك أو متاجر أو مشاهير، وإعلانات ممولة بعروض أفضل من أن تكون حقيقية.",
+        "signs": [
+          "صفحة جديدة بمنشورات قليلة وإعلانات كثيرة",
+          "تطلب مراسلتها على واتساب",
+          "مشهور \"ينصح\" باستثمار"
+        ],
+        "ex": "إعلان ممول: الذكرى العشرون للاتحاد للطيران، تذاكر مجانية للجميع، احصل عليها الآن!",
+        "do": "تابع فقط الحسابات الرسمية الموثقة. تحقق من العروض في الموقع الرسمي."
+      },
+      "ur": {
+        "t": "سوشل میڈیا پر جعلی صفحات اور اشتہارات",
+        "d": "بینکوں، اسٹورز یا مشہور شخصیات کے جعلی اکاؤنٹس، اور ناقابل یقین پیشکشوں والے اشتہارات۔",
+        "signs": [
+          "نیا صفحہ، کم پوسٹس، بہت اشتہار",
+          "واٹس ایپ پر میسج کرنے کا کہنا",
+          "مشہور شخصیت سرمایہ کاری کی \"سفارش\" کرے"
+        ],
+        "ex": "سپانسرڈ: اتحاد کی 20ویں سالگرہ، سب کے لیے مفت ٹکٹ، ابھی حاصل کریں!",
+        "do": "صرف تصدیق شدہ سرکاری اکاؤنٹس فالو کریں۔ پیشکش سرکاری ویب سائٹ پر چیک کریں۔"
+      }
+    }
+  ],
+  "app": null
 }
