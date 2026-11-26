@@ -23,3 +23,11 @@ No user data is ever uploaded here.
 - **top.txt** — the "most common now" list shown first in the app's Scam Vault (first 5 shown). Reorder any time.
 - **news.json** — filled automatically every day at 08:17 UAE time with the 5 latest scam news stories from trusted
   UAE/GCC news sites only (see `scripts/fetch_news.py`). To remove a story, delete it from news.json and commit.
+
+## Harmful apps, scam library and app updates
+- **apps.txt** — Android package names of games/apps confirmed harmful (endless pop-ups, hiding, installing other apps).
+  The phone check-up flags them immediately.
+- **vault.json** — the Scam Vault's scam types and methods (Arabic, English, Urdu). Edit a text or add an item
+  (same `id` replaces the built-in one) and it reaches every phone with the next daily update. No tanween in Arabic.
+- **app/shahid.apk + app/version.json** — publishing a new SHAHID version. The signed update carries its SHA-256,
+  and the app installs it only if the file matches and is signed with the same release key.

@@ -2,7 +2,7 @@ name: Publish signed SHAHID update
 on:
   push:
     branches: [main]
-    paths: ["numbers.txt", "websites.txt", "phrases.txt", "top.txt", "news.json", "scripts/**"]
+    paths: ["numbers.txt", "websites.txt", "phrases.txt", "top.txt", "news.json", "apps.txt", "vault.json", "app/**", "scripts/**"]
   schedule:
     - cron: "17 4 * * *"   # daily 08:17 UAE time: fetch the latest scam news
   workflow_dispatch:

@@ -1,0 +1,4 @@
+# SHAHID harmful apps — one Android package name per line:   package.name | source
+# Use for games/apps confirmed to show endless pop-up ads, hide themselves or install other apps.
+# Example:  com.fake.speedcleaner | Reported by users and confirmed by MH Team, Nov 2026
+# Find the package name in the Play Store link: play.google.com/store/apps/details?id=<package.name>

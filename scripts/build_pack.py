@@ -56,12 +56,37 @@ def main():
         for n in json.load(open(news_path, encoding="utf-8"))[:5]:
             if str(n.get("url", "")).startswith("https://"):
                 news.append({k: n.get(k, "") for k in ("title", "url", "image", "source", "ts", "lang", "summary")})
+    app_rows, e = read("apps.txt"); errors += e
+    bad_apps = []
+    for i, v, s in app_rows:
+        if not re.fullmatch(r"[A-Za-z][A-Za-z0-9_]*(\.[A-Za-z0-9_]+)+", v): errors.append(f"apps.txt:{i}: not an Android package name: {v}"); continue
+        if v.startswith(("com.android.", "com.google.android.", "ae.shahid.")): errors.append(f"apps.txt:{i}: system or SHAHID app cannot be listed: {v}"); continue
+        bad_apps.append({"package": v, "source": s})
+    vault = []
+    vpath = os.path.join(ROOT, "vault.json")
+    if os.path.exists(vpath):
+        try:
+            for it in json.load(open(vpath, encoding="utf-8"))["items"]:
+                if it.get("id") and it.get("cat") in ("type", "method") and all(isinstance(it.get(l), dict) and it[l].get("t") for l in ("en", "ar", "ur")):
+                    vault.append(it)
+                else: errors.append(f"vault.json: item {it.get('id')} needs id, cat (type/method) and en/ar/ur texts")
+            if re.search("[\u064B\u064C\u064D]", json.dumps(vault, ensure_ascii=False)): errors.append("vault.json: Arabic text must not contain tanween")
+        except Exception as ex: errors.append(f"vault.json: {ex}")
+    app = None
+    apk = os.path.join(ROOT, "app", "shahid.apk")
+    if os.path.exists(apk):
+        import hashlib
+        v = json.load(open(os.path.join(ROOT, "app", "version.json"), encoding="utf-8"))
+        app = {"versionCode": int(v["versionCode"]), "versionName": v["versionName"],
+               "url": "https://raw.githubusercontent.com/wideheart86-hub/Shahid-updates/main/app/shahid.apk",
+               "sha256": hashlib.sha256(open(apk, "rb").read()).hexdigest(),
+               **{k: v.get(k, "") for k in ("notes_en", "notes_ar", "notes_ur")}}
     if errors:
         print("\n".join(errors)); sys.exit(1)
 
     pack_path = os.path.join(ROOT, "pack.json")
     old = json.load(open(pack_path, encoding="utf-8")) if os.path.exists(pack_path) else {"version": 0}
-    body = {"blocked_domains": blocked_domains, "phrases": phrase_list, "blocked_numbers": blocked_numbers, "top": top, "news": news}
+    body = {"blocked_domains": blocked_domains, "phrases": phrase_list, "blocked_numbers": blocked_numbers, "top": top, "news": news, "bad_apps": bad_apps, "vault": vault, "app": app}
     same = all(old.get(k) == v for k, v in body.items())
     if same and os.path.exists(pack_path + ".sig"):
         print("No changes; version stays", old.get("version")); return
@@ -77,7 +102,7 @@ def main():
     sig = key.sign(data, ec.ECDSA(hashes.SHA256()))
     open(pack_path, "wb").write(data)
     open(pack_path + ".sig", "w").write(base64.b64encode(sig).decode() + "\n")
-    print(f"Published version {pack['version']}: {len(blocked_numbers)} numbers, {len(blocked_domains)} websites, {len(phrase_list)} phrases, {len(top)} top scams, {len(news)} news")
+    print(f"Published version {pack['version']}: {len(blocked_numbers)} numbers, {len(blocked_domains)} websites, {len(phrase_list)} phrases, {len(top)} top scams, {len(news)} news, {len(bad_apps)} harmful apps, {len(vault)} vault items, app {app and app['versionName']}")
 
 if __name__ == "__main__":
     main()
