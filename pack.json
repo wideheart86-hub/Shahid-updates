@@ -1,5 +1,5 @@
 {
-  "version": 19,
+  "version": 20,
   "updated": "2026-11-27",
   "note": "SHAHID threat pack (MH Team). Entries can only ADD warnings. Built automatically from numbers.txt, websites.txt and phrases.txt.",
   "blocked_domains": [
@@ -476,15 +476,6 @@
   ],
   "news": [
     {
-      "title": "الهند تنقذ عشرات الإندونيسيين والماليزيين من عصابة احتيال إلكتروني",
-      "url": "https://www.alkhaleej.ae/2026-11-27/اقتصاد/أسواق-عربية-وعالمية/الهند-تنقذ-عشرات-الإندونيسيين-والماليزيين-من-عصابة-احتيال-إلكتروني",
-      "image": "",
-      "source": "alkhaleej.ae",
-      "ts": 1795761120,
-      "lang": "ar",
-      "summary": "قالت الشرطة الهندية إنها أنقذت ‌العشرات من الماليزيين والإندونيسيين الذين تم احتجازهم ​بشكل ⁠غير قانوني وإجبارهم ‌على المشاركة ‌في عملية احتيال إلكتروني في إحدى ضواحي العاصمة نيودلهي. وأفادت شرطة نيود ..."
-    },
-    {
       "title": "احتيال بـ «فلاتر خبيثة».. تطبيقات لتجميل الصور تسرق بيانات مستخدميها",
       "url": "https://www.emaratalyoum.com/local-section/other/KFNSFBRI5ZJVPGHUNYG3ZWUPVI/",
       "image": "https://www.emaratalyoum.com/resizer/v2/FWTDA7T6S5BPVCI533RIYQISCI.jpg?auth=b3f69dd69971394158b8f272087826496fd92de82b66e748cc66b60ec85e76d0&width=800&height=450&focal=542%2C428",
@@ -492,6 +483,24 @@
       "ts": 1795694760,
       "lang": "ar",
       "summary": "شرطة الشارقة تحذر من عمليات احتيال عبر فلاتر تجميل تسرق الصور وتبتز الضحايا، مستغلة الثقة بالخدمات الإلكترونية."
+    },
+    {
+      "title": "\"فاتف\" تشيد بالطاولة المستديرة التي نظّمتها الرئاسة الإماراتية لـ\"مينافاتف\"",
+      "url": "https://www.wam.ae/ar/article/c3fm2zw-فاتف-تشيد-بالطاولة-المستديرة-التي-نظمتها-الرئاسة",
+      "image": "",
+      "source": "wam.ae",
+      "ts": 1795563240,
+      "lang": "ar",
+      "summary": "أكد سعادة جايلز تومسون، رئيس مجموعة العمل المالي «فاتف» أهمية سرعة الاستجابة لجرائم الاحتيال، وتوسيع نطاق التعاون ليشمل شركات التكنولوجيا والاتصالات إلى جانب القطاعات الخاضعة للرقابة، مشدداً على ضرورة ..."
+    },
+    {
+      "title": "كيف بلغت خسائر احتيال المدفوعات 660 مليون جنيه في بريطانيا؟",
+      "url": "https://24.ae/article/971942/كيف-بلغت-خسائر-احتيال-المدفوعات-660-مليون-جنيه-في-بريطانيا-",
+      "image": "",
+      "source": "24.ae",
+      "ts": 1795535940,
+      "lang": "ar",
+      "summary": "ارتفعت خسائر الاحتيال في المدفوعات ببريطانيا 8% إلى 659.5 مليون جنيه إسترليني في النصف الأول من 2026، بعدما قفزت خسائر العمليات التي يُخدع فيها الضحايا لتحويل الأموال بأنفسهم 22% إلى 316 مليون جنيه. و ..."
     },
     {
       "title": "Abu Dhabi Police issue warning against fraudulent ads, online links on rental bikes and holiday bookings",
@@ -510,15 +519,6 @@
       "ts": 1795344900,
       "lang": "ar",
       "summary": "حذّرت شرطة أبوظبي أفراد المجتمع من الوقوع ضحية للإعلانات والروابط الإلكترونية الوهمية التي يروّج لها محتالون عبر مواقع التواصل الاجتماعي والمنصات الإلكترونية، بشأن تأجير وبيع الدراجات النارية وحجز الا ..."
-    },
-    {
-      "title": "شرطة أبوظبي تحذر من احتيال تأجير الدراجات والاستراحات",
-      "url": "https://www.albayan.ae/news/uae/1566933",
-      "image": "https://www.albayan.ae/assets/images/2026/11/22/5423518.jpeg",
-      "source": "albayan.ae",
-      "ts": 1795304820,
-      "lang": "ar",
-      "summary": "حذّرت شرطة أبوظبي الجمهور من إعلانات وروابط إلكترونية وهمية، تستهدف الراغبين في استئجار الدراجات النارية، وحجز الاستراحا ..."
     }
   ],
   "bad_apps": [],
@@ -1171,12 +1171,12 @@
     }
   ],
   "app": {
-    "versionCode": 28,
-    "versionName": "2.17.0",
+    "versionCode": 29,
+    "versionName": "2.18.0",
     "url": "https://raw.githubusercontent.com/wideheart86-hub/Shahid-updates/main/app/shahid.apk",
-    "sha256": "51a81749e4f5fea9a973ea8d2c48fa216c0dfca5649583b11f54d6ef36fecfb4",
-    "notes_en": "Family safety network with emergency button, fewer false alarms, names for scam numbers, and a clearer link check.",
-    "notes_ar": "شبكة أمان العائلة مع زر الطوارئ، وتنبيهات خاطئة أقل، وأسماء لأرقام الاحتيال، وفحص أوضح للروابط.",
-    "notes_ur": "ایمرجنسی بٹن کے ساتھ خاندانی حفاظتی نیٹ ورک، کم غلط الرٹس، دھوکے کے نمبروں کے نام، اور لنک کی واضح جانچ۔"
+    "sha256": "3b5d1bb222b76e33bb13f6951f28b6f920b3c79a5f29eec729bdcb185a699a3d",
+    "notes_en": "End or answer a family emergency (I'm safe now / I'm on it), and update notifications with an Update now button.",
+    "notes_ar": "إنهاء حالة الطوارئ العائلية أو الرد عليها (أنا بأمان الآن / أنا قادم للمساعدة)، وإشعار التحديث مع زر حدث الآن.",
+    "notes_ur": "خاندانی ایمرجنسی ختم کریں یا جواب دیں (میں محفوظ ہوں / میں آ رہا ہوں)، اور ابھی اپ ڈیٹ کریں بٹن کے ساتھ اپ ڈیٹ نوٹیفکیشن۔"
   }
 }
