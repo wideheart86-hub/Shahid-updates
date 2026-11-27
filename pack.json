@@ -1,5 +1,5 @@
 {
-  "version": 20,
+  "version": 21,
   "updated": "2026-11-27",
   "note": "SHAHID threat pack (MH Team). Entries can only ADD warnings. Built automatically from numbers.txt, websites.txt and phrases.txt.",
   "blocked_domains": [
@@ -1171,12 +1171,12 @@
     }
   ],
   "app": {
-    "versionCode": 29,
-    "versionName": "2.18.0",
+    "versionCode": 30,
+    "versionName": "2.18.1",
     "url": "https://raw.githubusercontent.com/wideheart86-hub/Shahid-updates/main/app/shahid.apk",
-    "sha256": "3b5d1bb222b76e33bb13f6951f28b6f920b3c79a5f29eec729bdcb185a699a3d",
-    "notes_en": "End or answer a family emergency (I'm safe now / I'm on it), and update notifications with an Update now button.",
-    "notes_ar": "إنهاء حالة الطوارئ العائلية أو الرد عليها (أنا بأمان الآن / أنا قادم للمساعدة)، وإشعار التحديث مع زر حدث الآن.",
-    "notes_ur": "خاندانی ایمرجنسی ختم کریں یا جواب دیں (میں محفوظ ہوں / میں آ رہا ہوں)، اور ابھی اپ ڈیٹ کریں بٹن کے ساتھ اپ ڈیٹ نوٹیفکیشن۔"
+    "sha256": "9c6547963e3491295d4c55315c9a0b27c7753f3cec8fee8e566811d3a5023af4",
+    "notes_en": "New versions are now announced with a notification and an Update now button.",
+    "notes_ar": "يتم الآن الإعلان عن الإصدارات الجديدة بإشعار وزر حدث الآن.",
+    "notes_ur": "نئے ورژن اب نوٹیفکیشن اور ابھی اپ ڈیٹ کریں بٹن کے ساتھ بتائے جاتے ہیں۔"
   }
 }
