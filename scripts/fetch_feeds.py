@@ -23,6 +23,8 @@ LONG = ["salik", "emiratespost", "aramex", "dubai", "abudhabi", "sharjah", "ajma
 SHORT = ["rta", "uae", "eand", "du", "adcb", "enbd", "fab", "adib", "dib", "icp", "tamm", "moi", "amer", "stc", "ksa", "snb",
          "sadad", "qnb", "knet", "zain", "oman", "nbo", "noon", "gcc", "qatar", "saudi"]
 GCC = re.compile("(" + "|".join(LONG) + ")|(?<![a-z])(" + "|".join(SHORT) + ")(?![a-z])", re.I)
+LURE = re.compile(r"log-?in|signin|verif|secure|account|update|confirm|pay|bill|fine|refund|track|deliver|parcel|"
+                  r"customs|reward|gift|prize|bonus|support|service|wallet|otp|auth|portal|online|kyc|unlock|suspend", re.I)
 SHARED = {"google.com", "googleusercontent.com", "googleapis.com", "firebaseapp.com", "web.app", "appspot.com", "github.io",
           "githubusercontent.com", "github.com", "gitlab.io", "netlify.app", "vercel.app", "pages.dev", "workers.dev", "r2.dev",
           "weebly.com", "wixsite.com", "wix.com", "blogspot.com", "wordpress.com", "square.site", "godaddysites.com", "webflow.io",
@@ -71,7 +73,8 @@ def main():
             seen.add(d); n += 1
             is_gcc = bool(GCC.search(h))
             if re.search(r"\.(gov|edu|ac|mil|sch)(\.[a-z]{2})?$", d) or d.endswith((".gov", ".edu", ".int")): continue
-            if name == "Phishing.Database" and not is_gcc: continue   # community list: only its GCC-related entries
+            # Community list: only GCC-related entries that also look like a scam page (it holds some stale, real sites).
+            if name == "Phishing.Database" and not (is_gcc and LURE.search(h)): continue
             entry = {"domain": d, "source": name + (": may target GCC users" if is_gcc else "")}
             (gcc if is_gcc else world).append(entry)
         print(f"{name}: {n} new domains")
