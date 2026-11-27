@@ -1,7 +1,7 @@
 {
-  "versionCode": 30,
-  "versionName": "2.18.1",
-  "notes_en": "New versions are now announced with a notification and an Update now button.",
-  "notes_ar": "يتم الآن الإعلان عن الإصدارات الجديدة بإشعار وزر حدث الآن.",
-  "notes_ur": "نئے ورژن اب نوٹیفکیشن اور ابھی اپ ڈیٹ کریں بٹن کے ساتھ بتائے جاتے ہیں۔"
+  "versionCode": 31,
+  "versionName": "2.18.2",
+  "notes_en": "Test release: checks that new versions are announced with a notification.",
+  "notes_ar": "إصدار تجريبي: للتأكد من الإعلان عن الإصدارات الجديدة بإشعار.",
+  "notes_ur": "آزمائشی ریلیز: یہ جانچنے کے لیے کہ نئے ورژن نوٹیفکیشن کے ساتھ بتائے جاتے ہیں۔"
 }
