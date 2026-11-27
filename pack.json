@@ -1,5 +1,5 @@
 {
-  "version": 14,
+  "version": 15,
   "updated": "2026-11-27",
   "note": "SHAHID threat pack (MH Team). Entries can only ADD warnings. Built automatically from numbers.txt, websites.txt and phrases.txt.",
   "blocked_domains": [
@@ -101,15 +101,6 @@
       "summary": "شرطة الشارقة تحذر من عمليات احتيال عبر فلاتر تجميل تسرق الصور وتبتز الضحايا، مستغلة الثقة بالخدمات الإلكترونية."
     },
     {
-      "title": "LexisNexis Risk Solutions brings ‘Scamdemic’ to Dubai",
-      "url": "https://www.zawya.com/en/press-release/companies-news/lexisnexis-risk-solutions-brings-scamdemic-to-dubai-2555806",
-      "image": "https://media.zawya.com/prod/images/gm_preview/c54b64acc477-photo-4-1.jpg",
-      "source": "zawya.com",
-      "ts": 1795627740,
-      "lang": "en",
-      "summary": "UAE – LexisNexis® Risk Solutions hosted the UAE premiere of Scamdemic, a two-part documentary series that goes beyond individual scams to expose the organized criminal networks, human exploitation and ..."
-    },
-    {
       "title": "\"فاتف\" تشيد بالطاولة المستديرة التي نظّمتها الرئاسة الإماراتية لـ\"مينافاتف\"",
       "url": "https://www.wam.ae/ar/article/c3fm2zw-فاتف-تشيد-بالطاولة-المستديرة-التي-نظمتها-الرئاسة",
       "image": "",
@@ -119,15 +110,6 @@
       "summary": "أكد سعادة جايلز تومسون، رئيس مجموعة العمل المالي «فاتف» أهمية سرعة الاستجابة لجرائم الاحتيال، وتوسيع نطاق التعاون ليشمل شركات التكنولوجيا والاتصالات إلى جانب القطاعات الخاضعة للرقابة، مشدداً على ضرورة ..."
     },
     {
-      "title": "Kuwait arrests suspect in Gulf-wide scam network in joint operation with UAE",
-      "url": "https://www.khaleejtimes.com/world/gulf/kuwait-suspect-scam-network-operation-uae",
-      "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-11-23/08kqrek8/Screenshot-2026-11-23-at-10.39.26-AM.png?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=0,2,866,577",
-      "source": "khaleejtimes.com",
-      "ts": 1795401540,
-      "lang": "en",
-      "summary": "The organised criminal network allegedly targeted victims across the Gulf through fake advertisements and calls using local phone numbers ..."
-    },
-    {
       "title": "Abu Dhabi Police issue warning against fraudulent ads, online links on rental bikes and holiday bookings",
       "url": "https://www.gulftoday.ae/news/2026/11/22/abu-dhbai-police-issue-warning-against-fraudulent-ads-online-links-on-rental-bikes-and-holiday-bookings",
       "image": "https://www.gulftoday.ae/gulftoday/uploads/images/2026/11/22/1128983.webp",
@@ -135,6 +117,24 @@
       "ts": 1795349640,
       "lang": "en",
       "summary": "Abu Dhabi Police have warned the public against falling victim to fraudulent advertisements and online links promoted by scammers via social media and ..."
+    },
+    {
+      "title": "شرطة أبوظبي تحذر من إعلانات وهمية لتأجير الدراجات وحجز الاستراحات والعزب",
+      "url": "https://www.alkhaleej.ae/2026-11-22/%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D8%AF%D8%A7%D8%B1/%D8%B4%D8%B1%D8%B7%D8%A9-%D8%A3%D8%A8%D9%88%D8%B8%D8%A8%D9%8A-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D8%A7%D8%AA-%D9%88%D9%87%D9%85%D9%8A%D8%A9-%D9%84%D8%AA%D8%A3%D8%AC%D9%8A%D8%B1-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%AC%D8%A7%D8%AA-%D9%88%D8%AD%D8%AC%D8%B2-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AD%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%B9%D8%B2%D8%A8",
+      "image": "",
+      "source": "alkhaleej.ae",
+      "ts": 1795344900,
+      "lang": "ar",
+      "summary": "حذّرت شرطة أبوظبي أفراد المجتمع من الوقوع ضحية للإعلانات والروابط الإلكترونية الوهمية التي يروّج لها محتالون عبر مواقع التواصل الاجتماعي والمنصات الإلكترونية، بشأن تأجير وبيع الدراجات النارية وحجز الا ..."
+    },
+    {
+      "title": "شرطة أبوظبي تحذر من احتيال تأجير الدراجات والاستراحات",
+      "url": "https://www.albayan.ae/news/uae/1566933",
+      "image": "https://www.albayan.ae/assets/images/2026/11/22/5423518.jpeg",
+      "source": "albayan.ae",
+      "ts": 1795304820,
+      "lang": "ar",
+      "summary": "حذّرت شرطة أبوظبي الجمهور من إعلانات وروابط إلكترونية وهمية، تستهدف الراغبين في استئجار الدراجات النارية، وحجز الاستراحا ..."
     }
   ],
   "bad_apps": [],
@@ -787,12 +787,12 @@
     }
   ],
   "app": {
-    "versionCode": 26,
-    "versionName": "2.15.0",
+    "versionCode": 28,
+    "versionName": "2.17.0",
     "url": "https://raw.githubusercontent.com/wideheart86-hub/Shahid-updates/main/app/shahid.apk",
-    "sha256": "0532cc913ec698efa468d309bce21365927f9c0e23f12aaf07219b323776373d",
-    "notes_en": "Parent lock, in-app updates, scam alerts fixed on Huawei, and harmful-app reports.",
-    "notes_ar": "قفل الوالدين، وتحديثات داخل التطبيق، وإصلاح تنبيهات الاحتيال على هواوي، وبلاغات التطبيقات الضارة.",
-    "notes_ur": "والدین کا لاک، ایپ کے اندر اپ ڈیٹس، ہواوے پر دھوکے کے الرٹس درست، اور نقصان دہ ایپس کی رپورٹس۔"
+    "sha256": "51a81749e4f5fea9a973ea8d2c48fa216c0dfca5649583b11f54d6ef36fecfb4",
+    "notes_en": "Family safety network with emergency button, fewer false alarms, names for scam numbers, and a clearer link check.",
+    "notes_ar": "شبكة أمان العائلة مع زر الطوارئ، وتنبيهات خاطئة أقل، وأسماء لأرقام الاحتيال، وفحص أوضح للروابط.",
+    "notes_ur": "ایمرجنسی بٹن کے ساتھ خاندانی حفاظتی نیٹ ورک، کم غلط الرٹس، دھوکے کے نمبروں کے نام، اور لنک کی واضح جانچ۔"
   }
 }
