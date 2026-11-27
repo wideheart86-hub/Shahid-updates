@@ -69,8 +69,11 @@ def main():
             d = registrable(h)
             if not d or d in seen or d in top or d in SHARED or d in OFFICIAL or any(d.endswith("." + o) for o in OFFICIAL): continue
             seen.add(d); n += 1
-            entry = {"domain": d, "source": name + (": impersonates a GCC brand" if GCC.search(h) else "")}
-            (gcc if GCC.search(h) else world).append(entry)
+            is_gcc = bool(GCC.search(h))
+            if re.search(r"\.(gov|edu|ac|mil|sch)(\.[a-z]{2})?$", d) or d.endswith((".gov", ".edu", ".int")): continue
+            if name == "Phishing.Database" and not is_gcc: continue   # community list: only its GCC-related entries
+            entry = {"domain": d, "source": name + (": may target GCC users" if is_gcc else "")}
+            (gcc if is_gcc else world).append(entry)
         print(f"{name}: {n} new domains")
     out = (gcc + world)[:MAX_TOTAL]
     if len(out) < 50:
