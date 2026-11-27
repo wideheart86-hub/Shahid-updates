@@ -1,7 +1,7 @@
 {
-  "versionCode": 26,
-  "versionName": "2.15.0",
-  "notes_en": "Parent lock, in-app updates, scam alerts fixed on Huawei, and harmful-app reports.",
-  "notes_ar": "قفل الوالدين، وتحديثات داخل التطبيق، وإصلاح تنبيهات الاحتيال على هواوي، وبلاغات التطبيقات الضارة.",
-  "notes_ur": "والدین کا لاک، ایپ کے اندر اپ ڈیٹس، ہواوے پر دھوکے کے الرٹس درست، اور نقصان دہ ایپس کی رپورٹس۔"
+  "versionCode": 28,
+  "versionName": "2.17.0",
+  "notes_en": "Family safety network with emergency button, fewer false alarms, names for scam numbers, and a clearer link check.",
+  "notes_ar": "شبكة أمان العائلة مع زر الطوارئ، وتنبيهات خاطئة أقل، وأسماء لأرقام الاحتيال، وفحص أوضح للروابط.",
+  "notes_ur": "ایمرجنسی بٹن کے ساتھ خاندانی حفاظتی نیٹ ورک، کم غلط الرٹس، دھوکے کے نمبروں کے نام، اور لنک کی واضح جانچ۔"
 }
