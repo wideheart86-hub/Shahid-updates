@@ -81,6 +81,13 @@ def main():
                "url": "https://raw.githubusercontent.com/wideheart86-hub/Shahid-updates/main/app/shahid.apk",
                "sha256": hashlib.sha256(open(apk, "rb").read()).hexdigest(),
                **{k: v.get(k, "") for k in ("notes_en", "notes_ar", "notes_ur")}}
+    feeds_path = os.path.join(ROOT, "feeds.json")
+    if os.path.exists(feeds_path):
+        mine = {d["domain"] for d in blocked_domains}
+        for f in json.load(open(feeds_path, encoding="utf-8"))[:3000]:
+            d = str(f.get("domain", ""))
+            if re.fullmatch(r"[a-z0-9-]+(\.[a-z0-9-]+)+", d) and d not in mine and d not in OFFICIAL and not any(d.endswith("." + o) for o in OFFICIAL):
+                blocked_domains.append({"domain": d, "source": str(f.get("source", "security feed"))[:80]}); mine.add(d)
     if errors:
         print("\n".join(errors)); sys.exit(1)
 

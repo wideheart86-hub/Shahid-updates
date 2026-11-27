@@ -31,3 +31,9 @@ No user data is ever uploaded here.
   (same `id` replaces the built-in one) and it reaches every phone with the next daily update. No tanween in Arabic.
 - **app/shahid.apk + app/version.json** — publishing a new SHAHID version. The signed update carries its SHA-256,
   and the app installs it only if the file matches and is signed with the same release key.
+
+## Worldwide and GCC scam websites (automatic)
+Every day `scripts/fetch_feeds.py` reads open security feeds (OpenPhish, URLhaus by abuse.ch, Phishing.Database) and
+keeps every domain impersonating a GCC brand or service plus the freshest worldwide phishing domains (max 3,000) in
+`feeds.json`. Shared hosting platforms and the world's 10,000 most popular websites are never included, because
+SHAHID blocks whole domains. Your own `websites.txt` always stays in the update as well.
