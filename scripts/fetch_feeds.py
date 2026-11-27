@@ -16,10 +16,13 @@ FEEDS = [
     ("URLhaus (abuse.ch)", "https://urlhaus.abuse.ch/downloads/text_online/"),
     ("Phishing.Database", "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains-ACTIVE.txt"),
 ]
-GCC = re.compile(r"rta|salik|nol|emiratespost|empost|aramex|dubai|abudhabi|sharjah|ajman|uae|emirates|etisalat|eand|\bdu\b|adcb|enbd|"
-                 r"emiratesnbd|mashreq|fab|bankfab|adib|dib|rakbank|cbd|icp|uaepass|tamm|adpolice|moi|mohre|amer|tasheel|ejari|"
-                 r"absher|stc|saudi|ksa|riyad|alrajhi|snb|sadad|tabby|tamara|qatar|ooredoo|qnb|kuwait|knet|zain|oman|bahrain|benefit|"
-                 r"batelco|careem|noon|talabat|amazon\.ae|dhl|fedex|smsa|qpost|naqel|gcc|khaleej", re.I)
+LONG = ["salik", "emiratespost", "aramex", "dubai", "abudhabi", "sharjah", "ajman", "emirates", "etisalat", "emiratesnbd",
+        "mashreq", "bankfab", "rakbank", "uaepass", "adpolice", "mohre", "tasheel", "ejari", "absher", "alrajhi", "riyadbank",
+        "tabby", "tamara", "ooredoo", "kuwait", "bahrain", "batelco", "careem", "talabat", "khaleej", "qatarairways", "qpost",
+        "saudipost", "naqel", "smsaexpress", "dubaipolice", "abudhabipolice", "rtadubai", "nolcard", "fujairah", "rasalkhaimah"]
+SHORT = ["rta", "uae", "eand", "du", "adcb", "enbd", "fab", "adib", "dib", "icp", "tamm", "moi", "amer", "stc", "ksa", "snb",
+         "sadad", "qnb", "knet", "zain", "oman", "nbo", "noon", "gcc", "qatar", "saudi"]
+GCC = re.compile("(" + "|".join(LONG) + ")|(?<![a-z])(" + "|".join(SHORT) + ")(?![a-z])", re.I)
 SHARED = {"google.com", "googleusercontent.com", "googleapis.com", "firebaseapp.com", "web.app", "appspot.com", "github.io",
           "githubusercontent.com", "github.com", "gitlab.io", "netlify.app", "vercel.app", "pages.dev", "workers.dev", "r2.dev",
           "weebly.com", "wixsite.com", "wix.com", "blogspot.com", "wordpress.com", "square.site", "godaddysites.com", "webflow.io",
