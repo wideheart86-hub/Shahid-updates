@@ -1,7 +1,7 @@
 {
-  "versionCode": 28,
-  "versionName": "2.17.0",
-  "notes_en": "Family safety network with emergency button, fewer false alarms, names for scam numbers, and a clearer link check.",
-  "notes_ar": "شبكة أمان العائلة مع زر الطوارئ، وتنبيهات خاطئة أقل، وأسماء لأرقام الاحتيال، وفحص أوضح للروابط.",
-  "notes_ur": "ایمرجنسی بٹن کے ساتھ خاندانی حفاظتی نیٹ ورک، کم غلط الرٹس، دھوکے کے نمبروں کے نام، اور لنک کی واضح جانچ۔"
+  "versionCode": 29,
+  "versionName": "2.18.0",
+  "notes_en": "End or answer a family emergency (I'm safe now / I'm on it), and update notifications with an Update now button.",
+  "notes_ar": "إنهاء حالة الطوارئ العائلية أو الرد عليها (أنا بأمان الآن / أنا قادم للمساعدة)، وإشعار التحديث مع زر حدث الآن.",
+  "notes_ur": "خاندانی ایمرجنسی ختم کریں یا جواب دیں (میں محفوظ ہوں / میں آ رہا ہوں)، اور ابھی اپ ڈیٹ کریں بٹن کے ساتھ اپ ڈیٹ نوٹیفکیشن۔"
 }
