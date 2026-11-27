@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 19,
   "updated": "2026-11-27",
   "note": "SHAHID threat pack (MH Team). Entries can only ADD warnings. Built automatically from numbers.txt, websites.txt and phrases.txt.",
   "blocked_domains": [
@@ -12,135 +12,7 @@
       "source": "Resecurity report: fake Emirates Post site emiratespost.ae.tcsz.top (2024)"
     },
     {
-      "domain": "befitsports.net",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "sardkuwait.org",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "fanlink.tv",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "2dogsandatabby.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "2dogsandatabby.info",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "sap2451du4.cc",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "9du-flk.shop",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "6gcc.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "icp0.io",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "tari-ksa.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "absher-ksa-sa.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "abudhabi-locals.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "abudhabiuniforms.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "acdubaimaintenance.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "padfosams.org.cn",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "adcb-abudhabi.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "adib-eg.co",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
       "domain": "ae-emiratespost-login.live",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "airdubaimusic.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "albaitalkhaleejibh.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "alliance-ksa.net",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "allnadodubai.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "aloevera4uae.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "dubaide.cn",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "amer1canxpresse.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "amer-gallery.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "apabahrain.in",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "apcdubai.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "du5g.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "aramex-client.xyz",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "aramex.one",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "valeriair.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "yiff.fi",
       "source": "Phishing.Database: may target GCC users"
     },
     {
@@ -148,99 +20,7 @@
       "source": "Phishing.Database: may target GCC users"
     },
     {
-      "domain": "bahrainbhpost.top",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "bahrainrfc.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "financialanchorllc.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "bayan-qatar.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "tap35406du.cc",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "granddubai.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "burj-alkhaleej.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
       "domain": "puredirector.xyz",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "carbatterydubai.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "whtas-ksa.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "core-ksa.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "clinicahalito.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "dib-benk-dib.life",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "dr-amer.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "du-ae.lol",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "dubaidesertride.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "dubaidesrthax.top",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "dubai-global-village.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "dubaiibnet.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "dubaileisureholidays.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "dubailuxurypropertiess.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "dubai-never-sleep.agency",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "espejopoolpatios.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "dubaiyachts24x7.com",
       "source": "Phishing.Database: may target GCC users"
     },
     {
@@ -252,34 +32,6 @@
       "source": "Phishing.Database: may target GCC users"
     },
     {
-      "domain": "einrichten-neu-spk-formular-du.xyz",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "emirates-ae-post-shipping.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "emiratesapparel.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "emiratesfarms.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "emirateslive.cf",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "emirateslive.gq",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "emirateslive.ml",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
       "domain": "emiratesnbdkyc.com",
       "source": "Phishing.Database: may target GCC users"
     },
@@ -288,35 +40,7 @@
       "source": "Phishing.Database: may target GCC users"
     },
     {
-      "domain": "emirates-post.org",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "postoman.shop",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "emirateswaiting-for-customer.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "escapetotheemirates.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "esnavs-gcc.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "securityglobal.cl",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
       "domain": "zoneoneme.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "etisalat-amazonprime.com",
       "source": "Phishing.Database: may target GCC users"
     },
     {
@@ -324,35 +48,7 @@
       "source": "Phishing.Database: may target GCC users"
     },
     {
-      "domain": "ewasterasalkhaimah.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "desev.top",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "fmsdubai.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "financeemiratebankdubai.top",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "flowtech-uae.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "gcc-technology.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
       "domain": "giftabudhabionline.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "qnb-fina.xyz",
       "source": "Phishing.Database: may target GCC users"
     },
     {
@@ -360,107 +56,11 @@
       "source": "Phishing.Database: may target GCC users"
     },
     {
-      "domain": "goldenkuwait.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "graffitidubai.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "gov.moi",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "primetec-dubai.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "inkuwaitmall.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "khaleejjob.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "kurindubaitullah.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "kuwaitmuscleshow.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "kuwaitpackagingresolve.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "kuwaitpost-gov.top",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "kuwaitpot.top",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "labling-fab.de",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "labqpostale.fr",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "laughteryoga-uae.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "s-oman.net",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "dubaibaenet.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
       "domain": "softemirates.com",
       "source": "Phishing.Database: may target GCC users"
     },
     {
-      "domain": "mattresscleaningabudhabi.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "mmetals-uae.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "moversandpackersdubai.net",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "msmoversdubai.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
       "domain": "netflix-dubaireward.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "nppfdubai.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "nyaman-catamaran.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "okkuwait.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "olympian-stc.ru",
       "source": "Phishing.Database: may target GCC users"
     },
     {
@@ -476,63 +76,11 @@
       "source": "Phishing.Database: may target GCC users"
     },
     {
-      "domain": "petcornerdubai.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "qatar-dhl.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "qnb-yaziadeleri.ga",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "refrigeratedvansdubai.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "mashreq-c.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "bnb-uae-rentals.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "bnb-uae.live",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "bnb-uae.me",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "royalfoamdubai.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "sasemirates.ae",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
       "domain": "corpapelsac.com",
       "source": "Phishing.Database: may target GCC users"
     },
     {
-      "domain": "shiners-uae.com",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
       "domain": "stc33.online",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "uae.com.br",
-      "source": "Phishing.Database: may target GCC users"
-    },
-    {
-      "domain": "whats-du.vip",
       "source": "Phishing.Database: may target GCC users"
     },
     {
