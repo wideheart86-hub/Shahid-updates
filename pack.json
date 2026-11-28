@@ -1,6 +1,6 @@
 {
-  "version": 22,
-  "updated": "2026-11-27",
+  "version": 23,
+  "updated": "2026-11-28",
   "note": "SHAHID threat pack (MH Team). Entries can only ADD warnings. Built automatically from numbers.txt, websites.txt and phrases.txt.",
   "blocked_domains": [
     {
@@ -84,223 +84,23 @@
       "source": "Phishing.Database: may target GCC users"
     },
     {
-      "domain": "previewship.net",
+      "domain": "btzyw.com",
       "source": "OpenPhish"
     },
     {
-      "domain": "aolade.cn",
+      "domain": "policysupportverified.my",
       "source": "OpenPhish"
     },
     {
-      "domain": "u.gy",
+      "domain": "mebelsam.net",
       "source": "OpenPhish"
     },
     {
-      "domain": "wasmer.app",
+      "domain": "pokemonbattlegrounds.online",
       "source": "OpenPhish"
     },
     {
-      "domain": "roblox.com.sy",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "jsbe.lat",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "roblox.ly",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "scxkjx.cn",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "auth-secure.me",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "hotel-confirmation.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "flazio.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "rbcode.net",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "jadlog.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "roblox.com.et",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "playerportalhub.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "bkpngv.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "pdfils.top",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "alie.kr",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "2276292.cc",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "daynmedia.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "roblox.com.ss",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "roblox.com.kz",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "sharemyhtml.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "amigosdobem.lat",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "zmenghl.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "itcserv.net",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "vercel-legal.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "craftum.io",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "kahraman.de",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "rb-hosting.io",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "https--www--roblox.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "meriici.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "ceroeri.help",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "yunjin-tec.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "dpd-paketkosten.click",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "web.id",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "roblox.com.gr",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "meet-posher.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "dingng10001.top",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "4everland.app",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "rjnlgb.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "heartlandauthportal.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "getdigicore.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "help-english.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "veribecuauthportal.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "imtokeet.top",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "case8671.xyz",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "googlosecuritydesk.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "cerosop.click",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "shopeez88.top",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "edgeone.dev",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "certoup.top",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "ll365756.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "22604886365.com",
-      "source": "OpenPhish"
-    },
-    {
-      "domain": "zqwxw.com",
+      "domain": "pokemonbattlegrounds.com",
       "source": "OpenPhish"
     },
     {
@@ -308,91 +108,295 @@
       "source": "OpenPhish"
     },
     {
-      "domain": "id94653855.com",
+      "domain": "boom-bush-boo.com",
       "source": "OpenPhish"
     },
     {
-      "domain": "nuobeierzjq8t.com",
+      "domain": "business-support-partner.com",
       "source": "OpenPhish"
     },
     {
-      "domain": "aukcja-74852153.cfd",
+      "domain": "misticamolduras.com.br",
       "source": "OpenPhish"
     },
     {
-      "domain": "bom.so",
+      "domain": "roblox.com.ss",
       "source": "OpenPhish"
     },
     {
-      "domain": "mx-alerta.com",
+      "domain": "weeblysite.com",
       "source": "OpenPhish"
     },
     {
-      "domain": "alerta-macstore.com",
+      "domain": "13363311.com",
       "source": "OpenPhish"
     },
     {
-      "domain": "verifysupportld.com",
+      "domain": "pkfods.net",
       "source": "OpenPhish"
     },
     {
-      "domain": "devicelost.support",
+      "domain": "folio-registro.top",
       "source": "OpenPhish"
     },
     {
-      "domain": "encontrar-mapsmx-se.help",
+      "domain": "hostedbyfps.com",
       "source": "OpenPhish"
     },
     {
-      "domain": "encontrar-geolocalizacion-se.help",
+      "domain": "iceiy.com",
       "source": "OpenPhish"
     },
     {
-      "domain": "ishop.support",
+      "domain": "find-device-phone.live",
       "source": "OpenPhish"
     },
     {
-      "domain": "mylocationaccount.us",
+      "domain": "find-cloudb-us.help",
       "source": "OpenPhish"
     },
     {
-      "domain": "appfindmy.info",
+      "domain": "applerecoverylogin.ink",
       "source": "OpenPhish"
     },
     {
-      "domain": "enc-iph-mx.us",
+      "domain": "apple-supportt.click",
       "source": "OpenPhish"
     },
     {
-      "domain": "supportfindmy.com",
+      "domain": "applerecoverylogin.click",
       "source": "OpenPhish"
     },
     {
-      "domain": "rbup.cc",
+      "domain": "lost-appleld-lnfo.live",
       "source": "OpenPhish"
     },
     {
-      "domain": "redeemmlbb.com",
+      "domain": "ww-lciuodcom.shop",
       "source": "OpenPhish"
     },
     {
-      "domain": "megaconnet.com",
+      "domain": "aolade.cn",
       "source": "OpenPhish"
     },
     {
-      "domain": "mtsmaroc.ma",
+      "domain": "findmyiforgot-fmi.cfd",
       "source": "OpenPhish"
     },
     {
-      "domain": "tailoper.at",
+      "domain": "folio-registrofmi.cfd",
       "source": "OpenPhish"
     },
     {
-      "domain": "zya.me",
+      "domain": "signin.broker",
       "source": "OpenPhish"
     },
     {
-      "domain": "teamrc.homes",
+      "domain": "roblox.et",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "zzuqg.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "allenvale.com.au",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "etrack-mon-colis.com",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "oblox.com.et",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "webador.com",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "xggkn.best",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "albumpipe.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "teamro.homes",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "u.gy",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "att-bonus.com.mx",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "roblox.com.bo",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "gubet365.com",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "https-wwwv-roblox.co",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "roblox.com.sy",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "4-y.cc",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "borderclick.com",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "roblox.ly",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "lutheranunderground.com",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "securedoccenter.com",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "typedream.app",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "kolbosi.click",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "centralempresas.pro",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "wasmer.app",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "abrdns.com",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "imtokekn.com",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "playerportalhub.com",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "f0undersfirm.com",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "yzz.me",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "gt.tc",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "icb.lat",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "na-apple9.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "na-apple11.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "na-apple12.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "na-apple16.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "a-apple7.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "na-apple4.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "na-apple6.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "b-apple11.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "a-apple6.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "a-apple4.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "b-apple5.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "na-apple15.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "na-apple14.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "a-apple5.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "na-apple13.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "na-apple17.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "na-apple18.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "na-apple7.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "na-apple20.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "a-apple9.xyz",
+      "source": "OpenPhish"
+    },
+    {
+      "domain": "na-apple19.xyz",
       "source": "OpenPhish"
     }
   ],
@@ -476,6 +480,15 @@
   ],
   "news": [
     {
+      "title": "الهند تنقذ عشرات الإندونيسيين والماليزيين من عصابة احتيال إلكتروني",
+      "url": "https://www.alkhaleej.ae/2026-11-27/اقتصاد/أسواق-عربية-وعالمية/الهند-تنقذ-عشرات-الإندونيسيين-والماليزيين-من-عصابة-احتيال-إلكتروني",
+      "image": "",
+      "source": "alkhaleej.ae",
+      "ts": 1795761120,
+      "lang": "ar",
+      "summary": "قالت الشرطة الهندية إنها أنقذت ‌العشرات من الماليزيين والإندونيسيين الذين تم احتجازهم ​بشكل ⁠غير قانوني وإجبارهم ‌على المشاركة ‌في عملية احتيال إلكتروني في إحدى ضواحي العاصمة نيودلهي. وأفادت شرطة نيود ..."
+    },
+    {
       "title": "احتيال بـ «فلاتر خبيثة».. تطبيقات لتجميل الصور تسرق بيانات مستخدميها",
       "url": "https://www.emaratalyoum.com/local-section/other/KFNSFBRI5ZJVPGHUNYG3ZWUPVI/",
       "image": "https://www.emaratalyoum.com/resizer/v2/FWTDA7T6S5BPVCI533RIYQISCI.jpg?auth=b3f69dd69971394158b8f272087826496fd92de82b66e748cc66b60ec85e76d0&width=800&height=450&focal=542%2C428",
@@ -492,15 +505,6 @@
       "ts": 1795563240,
       "lang": "ar",
       "summary": "أكد سعادة جايلز تومسون، رئيس مجموعة العمل المالي «فاتف» أهمية سرعة الاستجابة لجرائم الاحتيال، وتوسيع نطاق التعاون ليشمل شركات التكنولوجيا والاتصالات إلى جانب القطاعات الخاضعة للرقابة، مشدداً على ضرورة ..."
-    },
-    {
-      "title": "كيف بلغت خسائر احتيال المدفوعات 660 مليون جنيه في بريطانيا؟",
-      "url": "https://24.ae/article/971942/كيف-بلغت-خسائر-احتيال-المدفوعات-660-مليون-جنيه-في-بريطانيا-",
-      "image": "",
-      "source": "24.ae",
-      "ts": 1795535940,
-      "lang": "ar",
-      "summary": "ارتفعت خسائر الاحتيال في المدفوعات ببريطانيا 8% إلى 659.5 مليون جنيه إسترليني في النصف الأول من 2026، بعدما قفزت خسائر العمليات التي يُخدع فيها الضحايا لتحويل الأموال بأنفسهم 22% إلى 316 مليون جنيه. و ..."
     },
     {
       "title": "Abu Dhabi Police issue warning against fraudulent ads, online links on rental bikes and holiday bookings",
